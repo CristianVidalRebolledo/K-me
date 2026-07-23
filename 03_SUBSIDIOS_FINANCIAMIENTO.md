@@ -60,11 +60,15 @@ con nuestro objetivo de cumplimiento normativo.
 - **Ciclo**: 6-12 meses
 - **Comisión potencial**: 5-10% del monto aprobado
 
-### B. Línea de Crédito BancoEstado
-- **Monto**: Hasta USD $100k
-- **Tasa**: 4-5% anual
-- **Plazo**: 5-7 años
-- **Ciclo**: 2-4 meses
+### B. Línea de Crédito BancoEstado — Línea Verde (dato primario BID)
+- **Dirigida a**: PYME y **ESCO**; financia EE y ERNC para terceros (incluye insumos,
+  mercadería y mano de obra).
+- **Plazo**: **hasta 12 años** **[dato primario BID, IDB-TN-2038]**.
+- **Cobertura**: **hasta 80% del valor neto** del proyecto.
+- **Moneda**: pesos o UF; calendario de pagos acorde al ciclo del negocio.
+- **Garantías**: estatales o reales. Opera con ficha validada por la **ASE**.
+- Ver detalle y el andamiaje completo del **Modelo ESI** (seguro CESCE/SURA, validación
+  ISO 50001) en **`07_MODELO_ESI_BID.md`**.
 
 ### C. CORFO - Fondos Innovación
 - **Monto**: USD $50k - $500k

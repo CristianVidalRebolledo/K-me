@@ -36,6 +36,8 @@ marco de precios es estable y predecible entre procesos tarifarios.
   Esta es la base económicamente activa, más realista para prospección.
 - Clasificación SII por ventas anuales: micro (<2.400 UF), pequeña (2.400–25.000 UF),
   mediana (25.000–100.000 UF), grande (≥100.000 UF) **[dato SII]**.
+- De ese universo, **~220.000 empresas** son **grandes + PYME** (la PYME es el **23,5%**;
+  la micro el **75,2%**) **[dato primario BID, IDB-TN-2038]**. Ver `07_MODELO_ESI_BID.md`.
 
 ### Distribución geográfica (MiPymes)
 
@@ -177,6 +179,12 @@ Ver `04b_SERVICIO_INTEGRADO_ESCO.md` y `03_SUBSIDIOS_FINANCIAMIENTO.md`.
 **Ancla de validación**: el programa público "Ponle Energía a tu Pyme" espera beneficiar
 a **~500 empresas** por convocatoria con cofinanciamiento **[dato]** — señal del volumen
 que el propio Estado considera abordable por ciclo. Ver `03_SUBSIDIOS_FINANCIAMIENTO.md`.
+
+**Ancla cuantitativa (fuente primaria BID)**: el estudio IDB-TN-2038 estima un **mercado
+efectivo de ~533 proyectos/año (~USD 45M/año de inversión)** solo en 4 subsectores
+priorizados (hotelero, agroindustrial, vitivinícola, pesquero; 30.970 empresas), y un
+**mercado potencial de ~USD 3.000M**. El detalle de tamaño, tecnologías, TIR y payback
+está en **`07_MODELO_ESI_BID.md`**.
 
 ---
 

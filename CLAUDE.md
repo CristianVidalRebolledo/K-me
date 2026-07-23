@@ -29,6 +29,7 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `04b_SERVICIO_INTEGRADO_ESCO.md` | Definición del servicio ESCO, modelo EPC/SaaS/híbrido, ciclo de servicio |
 | `05_GOMARKET_ELECTRICISTAS.md` | Go-to-market vía electricistas como canal |
 | `06_ROADMAP_TECNICO_MVP.md` | Roadmap de desarrollo (MVP → EPC), 6 meses |
+| `07_MODELO_ESI_BID.md` | **Fuente primaria BID (IDB-TN-2038)**: Modelo ESI, mercado potencial PYME, tecnologías, TIR/payback, financiamiento BancoEstado |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
 | `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia). **No leerlos** — ver abajo. |
