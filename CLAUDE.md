@@ -10,7 +10,7 @@ El objetivo de negocio es que las PYMES logren:
 
 - Un **uso eficiente de la energía** (eléctrica primero; térmica más adelante).
 - **Cumplimiento de las normas ISO 50001 (Sistemas de Gestión de la Energía) e ISO 50002 (Auditorías Energéticas)**, con miras a la familia ISO 50000 (M&V con ISO 50006/50015).
-- **Postular a financiamiento público bajo un modelo ESCO** (Empresa de Servicios Energéticos). Nota abierta: falta confirmar el nombre exacto del programa y la URL oficial donde se publica (candidatos investigados: FFEE — Fondo de Eficiencia Energética, CORFO, línea BancoEstado; ver `03_SUBSIDIOS_FINANCIAMIENTO.md`).
+- **Postular a financiamiento público bajo un modelo ESCO** (Empresa de Servicios Energéticos). Programa ancla verificado (jul 2026): **"Ponle Energía a tu Pyme"** del **Ministerio de Energía + Agencia de Sostenibilidad Energética (AgenciaSE)** — cofinancia hasta 50–80% según tamaño de empresa ([ficha](https://www.agenciase.org/energia-a-tu-pyme/), [plataforma](https://energia.gob.cl/pfinanciamiento)). El modelo ESCO se declara en el **Registro Energético** de AgenciaSE (www.agenciase.cl); gremio de referencia **ANESCO Chile**. Detalle y fuentes en `03_SUBSIDIOS_FINANCIAMIENTO.md`.
 
 El propósito del repositorio es ser **suficientemente robusto y bien fundamentado** para sostener un juicio informado en conversaciones con clientes, inversionistas y partners. Toda afirmación numérica debe poder trazarse a una fuente (CNE, distribuidoras) o marcarse explícitamente como estimación.
 
