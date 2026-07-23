@@ -52,10 +52,24 @@ distribuida" de forma laxa. En Chile hay **dos regímenes formales y distintos**
 
 ## 3. Temas a vigilar (donde nuestra investigación es más débil)
 
-1. **Reforma de precios estabilizados de PMGD (2025–2026)**: incertidumbre regulatoria que
-   golpea la economía de la solar distribuida. Refuerza nuestra decisión de **no liderar con
-   solar** (payback 8–12 años) y priorizar factor de potencia (payback < 2 años), que no
-   depende de estos vaivenes.
+1. **Fin del precio estabilizado de PMGD (2025–2026) → exposición a vertimiento**: la
+   Contraloría validó (jun 2026) la reforma del reglamento PMGD que **reemplaza el precio
+   estabilizado por un "precio básico de energía"**. Consecuencia clave: los proyectos de
+   **inyección directa** dejan de tener un precio garantizado y quedan **expuestos al mercado
+   spot y al vertimiento (curtailment)** — cuando hay sobreoferta renovable, su energía se
+   corta o se paga a precio cercano a cero. Contexto de magnitud: solo en 2025 las
+   compensaciones del precio estabilizado sumaron **~USD 250 millones** (≈ 2 años del
+   subsidio eléctrico), lo que motivó la reforma.
+   - **Implicación para nosotros (refuerza la tesis)**: el negocio de *inyectar* (PMGD) se
+     vuelve más riesgoso, mientras que el de *autoconsumir/no comprar* (nuestro foco:
+     factor de potencia, demanda, eficiencia detrás del medidor) **no sufre vertimiento** —
+     el valor del kWh ahorrado es el precio de compra evitado, no el precio de inyección.
+     Es decir: el viento regulatorio empuja el valor **desde la inyección hacia el
+     autoconsumo y la eficiencia**, justo donde jugamos.
+   - **Matiz para el "solar upsell"**: una PYME con solar bajo **Net Billing** (autoconsumo)
+     está mucho menos expuesta que un PMGD, porque su valor principal es reducir la compra,
+     no vender excedentes. Pero los excedentes que sí inyecta valen menos en este escenario
+     → un argumento más para **dimensionar la solar al autoconsumo**, no a la inyección.
 2. **Net Billing (Ley 21.118)**: condiciones de valorización de excedentes y eventuales
    cambios de límite/precio — relevante para el caso solar de la PYME.
 3. **Almacenamiento (BESS)**: reglas de valorización y agregación. Conecta con nuestro
@@ -83,5 +97,13 @@ distribuida" de forma laxa. En Chile hay **dos regímenes formales y distintos**
 
 ---
 
-**Estado**: ✅ Contraste oferta/demanda documentado y fuentes de vigilancia registradas.
-Pendiente: seguimiento de la reforma PMGD y condiciones de Net Billing vigentes.
+**Fuentes sobre la reforma PMGD / fin del precio estabilizado**:
+- Contraloría valida reforma del reglamento PMGD (jun 2026): https://www.reporteminero.cl/noticia/noticias/2026/06/contraloria-valida-reforma-reglamento-pmgd-precios-estabilizados
+- "¿Fin al precio estabilizado?" (Energía Estratégica): https://www.energiaestrategica.com/fin-al-precio-estabilizado-gobierno-chileno-abre-consulta-para-modificar-el-reglamento-pmgd-y-permitir-participacion-bess/
+- Análisis del precio estabilizado PMGD/PMG (Consejo Minero, 2025): https://consejominero.cl/wp-content/uploads/2025/12/20250707-energiE-PPU_Analisis-del-Precio-Estabilizado-de-los-PMGD-y-PMG_Informe-Definitivo-2.pdf
+
+---
+
+**Estado**: ✅ Contraste oferta/demanda documentado, fuentes de vigilancia registradas y
+fin del precio estabilizado PMGD (→ vertimiento) incorporado. Pendiente: seguir la
+implementación del "precio básico de energía" y condiciones de Net Billing vigentes.
