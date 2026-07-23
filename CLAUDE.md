@@ -31,6 +31,7 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `06_ROADMAP_TECNICO_MVP.md` | Roadmap de desarrollo (MVP → EPC), 6 meses |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
+| `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia). **No leerlos** — ver abajo. |
 
 ### Simuladores (Python, sin dependencias externas)
 
@@ -61,6 +62,16 @@ python3 demo_interactivo.py    # versión interactiva
 - **Tarifas**: BT2 = energía + potencia contratada (comercio, 10–50 kW). BT3 = energía + demanda máxima (manufactura pequeña, >50 kW). Punta = abril–septiembre, 18:00–22:00.
 - **Trazabilidad**: los números "reales" provienen de CNE 2026 y distribuidoras (Enel, CGE, Saesa, Edelmag). Los valores marcados con `*` en las tablas son estimaciones. Al agregar cifras nuevas, citar la fuente o marcarlas como estimadas — no inventar precisión.
 - **Precisión declarada del simulador**: ~95%; no modela peajes de transmisión variables, contribuciones fiscales especiales ni cargos por atraso. Ver la sección "Advertencias sobre precisión" en `FUENTES_Y_DESPERDICIO.md`.
+
+## Carpeta `fuentes_pdf/` — no leer
+
+La carpeta `fuentes_pdf/` contiene documentos oficiales (Ministerio de Energía, SII)
+descargados como **respaldo/evidencia**. **No los leas con herramientas de IA/LLM**: son
+extensos y de codificación compleja (fuentes incrustadas, binario comprimido) y su lectura
+gasta muchos tokens con baja señal. **Los datos relevantes ya están extraídos y citados**
+en los Markdown (`01_MERCADO_PYMES_CHILE.md`, `03_SUBSIDIOS_FINANCIAMIENTO.md`). Usa esos
+resúmenes citados; abre los PDF solo si un humano necesita verificar la fuente primaria.
+Ver `fuentes_pdf/README.md` para el índice.
 
 ## Al hacer cambios
 
