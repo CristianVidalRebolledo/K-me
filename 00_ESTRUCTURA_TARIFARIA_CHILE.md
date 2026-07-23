@@ -176,13 +176,13 @@ ETAPA 2: SOLUCIONES ESPECÍFICAS (Hardware + Consultoría)
 │  └─ Payback: 2-4 años
 
 └─ Si hay ESPACIO + RADIACIÓN SOLAR:
-   ├─ Solución: Autogeneración solar distribuida
+   ├─ Solución: Autoconsumo solar fotovoltaico (Net Billing)
    ├─ Cómo: Reduce energía comprada en punta (generación máxima ≠ punta)
    ├─ Ahorro: Reducir energía 20-40% = $200-400k CLP/mes
    ├─ Inversión: $8M-20M CLP
-   ├─ Payback: 5-7 años
-   ├─ EXTRA: Vender excedentes a Enel (ley generación distribuida)
-   └─ Regulación: NCRE + Ley 21.196
+   ├─ Payback: 8-12 años (ver caso solar en 07_MODELO_ESI_BID.md)
+   ├─ EXTRA: Inyectar excedentes bajo Net Billing (no confundir con PMGD)
+   └─ Regulación: Net Billing / autoconsumo, Ley 21.118 (hasta 300 kW)
 
 ETAPA 3: MONITOREO + OPTIMIZACIÓN (SaaS Recurrente)
 ├─ Dashboard de demanda real-time
@@ -274,14 +274,25 @@ CLIENTE AHORRA:
 
 ## 7. Regulaciones Clave para tu Modelo
 
-### Generación Distribuida (PMGD)
+### Autoconsumo / Net Billing — el régimen que aplica a la PYME
 ```
-LEY 21.196 (2019):
-├─ Permite venta de excedentes a distribuidora
-├─ Precio: Precio nudo energía horaria
-├─ Límite: Hasta 300 kW por generador
-├─ Aplicable a: Solar, eólica, hidro pequeña
-├─ OPORTUNIDAD: Cliente puede ganar dinero vendiendo energía
+LEY 21.118 (2018, modifica Ley 20.571):
+├─ "Net Billing": autoconsumo con inyección de excedentes a la distribuidora
+├─ Límite: hasta 300 kW por instalación
+├─ Precio de excedentes: valorizados por la distribuidora (menor al de compra)
+├─ Aplicable a: Solar FV, eólica, etc. detrás del medidor del cliente
+├─ ESTE es el régimen para una PYME con paneles (NUESTRO caso de "solar upsell")
+└─ OPORTUNIDAD: reduce factura + inyecta excedentes; payback largo (8-12 años)
+```
+
+### Generación Distribuida (PMGD) — NO es nuestro segmento
+```
+PMGD (Pequeños Medios de Generación Distribuida):
+├─ Límite: hasta 9 MW; se conecta a la red de distribución para INYECTAR
+├─ Régimen de DESARROLLADORES/inversionistas, no de clientes finales PYME
+├─ Precio: régimen de precio estabilizado (en reforma regulatoria 2025-2026)
+├─ Es el mundo de los congresos tipo RENMAD/ACERA (ver 08_PANORAMA_INDUSTRIA.md)
+└─ Se documenta solo para NO confundirlo con Net Billing (lo de arriba)
 ```
 
 ### Almacenamiento de Energía (BESS)
