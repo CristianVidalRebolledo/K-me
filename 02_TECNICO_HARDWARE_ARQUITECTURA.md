@@ -15,8 +15,10 @@ Definir la arquitectura técnica mínima viable, costos reales, y flujo de datos
 [Gateway: Teltonika RUT956] (4G)
         ↓
 [Backend: Railway + Supabase] (Cloud)
+   Python + FastAPI + Pydantic (tipado fuerte)
         ↓
-[Dashboard: React/Next.js] (Web)
+[Dashboard: HTMX + Jinja2 + Tailwind] (Web)
+   + JS de gráficos puntual (Plotly/uPlot) en paneles en tiempo real
         ↓
 [Electricista + Pyme: Usan app]
 ```
@@ -53,7 +55,8 @@ TOTAL = $605-1,000 USD (~$605k-1M CLP)
 - Auth + Storage: Incluido
 
 ### Frontend
-- Next.js: $0-20 USD/mes
+- HTMX + Jinja2 servido por el backend FastAPI: $0 USD/mes adicional
+  (se sirve desde el mismo proceso backend; ver stack en `06_ROADMAP_TECNICO_MVP.md`)
 
 **Total mensual**: $50-160 USD (~$50k-160k CLP/mes)
 

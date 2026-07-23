@@ -24,7 +24,7 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 |---------|-----------|
 | `00_ESTRUCTURA_TARIFARIA_CHILE.md` | Tarifas BT1–BT4, componentes de cobro, dónde está el costo real |
 | `01_MERCADO_PYMES_CHILE.md` | Segmento BT2/BT3, TAM, preguntas de mercado abiertas |
-| `02_TECNICO_HARDWARE_ARQUITECTURA.md` | Stack: medidor Eastron SDM630, gateway Teltonika RUT956, Railway + Supabase, dashboard React/Next.js |
+| `02_TECNICO_HARDWARE_ARQUITECTURA.md` | Stack: medidor Eastron SDM630, gateway Teltonika RUT956, Railway + Supabase, dashboard (ver stack elegido abajo) |
 | `03_SUBSIDIOS_FINANCIAMIENTO.md` | FFEE, BancoEstado, CORFO, Certificados de Eficiencia (CEE) |
 | `04b_SERVICIO_INTEGRADO_ESCO.md` | Definición del servicio ESCO, modelo EPC/SaaS/híbrido, ciclo de servicio |
 | `05_GOMARKET_ELECTRICISTAS.md` | Go-to-market vía electricistas como canal |
