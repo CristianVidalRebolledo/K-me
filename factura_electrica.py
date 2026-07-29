@@ -7,6 +7,16 @@ from dataclasses import dataclass
 from parametros import Parametros, TarifaType
 
 
+# ⚠️ BASE DEL RECARGO POR FACTOR DE POTENCIA — PENDIENTE DE VERIFICAR (jul 2026)
+# Este simulador aplica el recargo SOLO sobre el costo de energía (criterio
+# CONSERVADOR). Algunas fuentes y ejemplos históricos del repo lo aplicaban sobre la
+# factura total (~2.4x más de recargo). La base correcta debe verificarse contra el
+# decreto tarifario CNE vigente y facturas reales de Enel/CGE antes de usar cifras
+# de ahorro en un pitch. Ver 11_PLAN_VALIDACION.md §1.1-1.2.
+# Cambiar a True solo si la verificación confirma que la base es la factura total.
+RECARGO_SOBRE_FACTURA_TOTAL = False
+
+
 @dataclass
 class DetalleFactura:
     """Desglose completo de la factura eléctrica"""
@@ -43,9 +53,19 @@ class CalculadoraFactura:
     VAD_BT3_CLIENTES_POR_KWMES = 25  # BT3 suele ser más barato
     VAD_BT4_CLIENTES_POR_KWMES = 20
 
-    def __init__(self, parametros: Parametros):
+    # Meses del año con período punta (abril-septiembre según CNE)
+    MESES_PUNTA = 6
+
+    def __init__(self, parametros: Parametros, es_periodo_punta: bool = True):
         self.p = parametros
-        self.es_periodo_punta = True  # Simulamos siempre con punta
+        # True = factura de un mes DENTRO del período punta (abril-septiembre)
+        # False = mes fuera de punta (octubre-marzo)
+        self.es_periodo_punta = es_periodo_punta
+
+    def _tarifa_mide_punta(self) -> bool:
+        """La demanda punta se mide en BT4 (obligatorio) y BT3 (opcional).
+        BT2 NO mide demanda punta (ver parametros.py, documentación de tarifas)."""
+        return self.p.tarifa in (TarifaType.BT3, TarifaType.BT4)
 
     def calcular_factura(self) -> DetalleFactura:
         """
@@ -58,18 +78,19 @@ class CalculadoraFactura:
         # Costo por potencia contratada o medida
         costo_potencia = self.p.demanda_maxima_kw * self.p.precio_potencia_clp_per_kw
 
-        # Costo por demanda punta (solo si hay demanda punta >0 y tarifa aplica)
-        if self.p.demanda_punta_kw > 0 and self.p.precio_potencia_punta_clp_per_kw > 0:
+        # Costo por demanda punta: solo en meses punta (abr-sep) y en tarifas
+        # que la miden (BT3/BT4; nunca BT2)
+        if (
+            self.es_periodo_punta
+            and self._tarifa_mide_punta()
+            and self.p.demanda_punta_kw > 0
+            and self.p.precio_potencia_punta_clp_per_kw > 0
+        ):
             costo_potencia_punta = (
                 self.p.demanda_punta_kw * self.p.precio_potencia_punta_clp_per_kw
             )
         else:
             costo_potencia_punta = 0
-
-        # Recargo por factor de potencia bajo
-        costo_recargo_factor = costo_energia * (
-            self.p.recargo_factor_potencia_pct / 100
-        )
 
         # VAD (Valor Agregado Distribución)
         if self.p.tarifa == TarifaType.BT2:
@@ -80,6 +101,20 @@ class CalculadoraFactura:
             vad_por_kwmes = self.VAD_BT4_CLIENTES_POR_KWMES
 
         costo_distribucion = self.p.energia_mensual_kwh * vad_por_kwmes
+
+        # Recargo por factor de potencia bajo.
+        # Base según RECARGO_SOBRE_FACTURA_TOTAL (ver advertencia al inicio del módulo):
+        #   False (por defecto, conservador): % sobre el costo de energía
+        #   True: % sobre la suma de cargos (energía + potencia + punta + VAD)
+        if RECARGO_SOBRE_FACTURA_TOTAL:
+            base_recargo = (
+                costo_energia + costo_potencia + costo_potencia_punta + costo_distribucion
+            )
+        else:
+            base_recargo = costo_energia
+        costo_recargo_factor = base_recargo * (
+            self.p.recargo_factor_potencia_pct / 100
+        )
 
         # Subtotal
         subtotal = (
@@ -114,6 +149,36 @@ class CalculadoraFactura:
             tarifa=self.p.tarifa,
             periodo_aplicado=periodo,
         )
+
+    def calcular_factura_anual(self) -> dict:
+        """
+        Calcula el año completo: 6 meses con punta (abril-septiembre) +
+        6 meses sin punta (octubre-marzo). El recargo por factor de potencia
+        aplica los 12 meses (depende del consumo de energía, no de la punta).
+
+        Retorna dict con las dos facturas mensuales y los totales anuales.
+        """
+        factura_punta = CalculadoraFactura(self.p, es_periodo_punta=True).calcular_factura()
+        factura_normal = CalculadoraFactura(self.p, es_periodo_punta=False).calcular_factura()
+
+        meses_normales = 12 - self.MESES_PUNTA
+        total_anual = (
+            factura_punta.total_mes_clp * self.MESES_PUNTA
+            + factura_normal.total_mes_clp * meses_normales
+        )
+        subtotal_anual = (
+            factura_punta.subtotal_clp * self.MESES_PUNTA
+            + factura_normal.subtotal_clp * meses_normales
+        )
+
+        return {
+            "factura_mes_punta": factura_punta,
+            "factura_mes_normal": factura_normal,
+            "total_anual_clp": total_anual,
+            "subtotal_anual_clp": subtotal_anual,  # sin IVA
+            "promedio_mensual_clp": total_anual / 12,
+            "recargo_factor_anual_clp": factura_punta.costo_recargo_factor_potencia_clp * 12,
+        }
 
     def imprimir_factura(self) -> str:
         """
@@ -175,13 +240,14 @@ class CalculadoraFactura:
         lineas.append(f"  Potencia (incl. punta):    {pct_potencia:>10.1f}%")
         lineas.append(f"  Recargo factor:            {pct_recargo:>10.1f}%")
 
-        lineas.append(f"\n💡 PROYECCIONES ANUALES:")
-        lineas.append(f"  Factura anual:             ${factura.total_mes_clp * 12:>14,.0f} CLP")
+        anual = self.calcular_factura_anual()
+        lineas.append(f"\n💡 PROYECCIONES ANUALES (punta solo abr-sep):")
+        lineas.append(f"  Factura anual:             ${anual['total_anual_clp']:>14,.0f} CLP")
         lineas.append(
             f"  Costo energía anual:       ${factura.costo_energia_clp * 12:>14,.0f} CLP"
         )
         lineas.append(
-            f"  Costo potencia anual:      ${(factura.costo_potencia_clp + factura.costo_potencia_punta_clp) * 12:>14,.0f} CLP"
+            f"  Costo potencia anual:      ${factura.costo_potencia_clp * 12 + factura.costo_potencia_punta_clp * self.MESES_PUNTA:>14,.0f} CLP"
         )
 
         # Estimación de "dinero desperdiciado" por factor bajo

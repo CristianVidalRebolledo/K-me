@@ -31,6 +31,9 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `06_ROADMAP_TECNICO_MVP.md` | Roadmap de desarrollo (MVP → EPC), 6 meses |
 | `07_MODELO_ESI_BID.md` | **Fuente primaria BID (IDB-TN-2038)**: Modelo ESI, mercado potencial PYME, tecnologías, TIR/payback, financiamiento BancoEstado |
 | `08_PANORAMA_INDUSTRIA.md` | Contraste oferta/demanda (vs. RENMAD/ATA/ACERA), Net Billing vs. PMGD, fuentes de vigilancia regulatoria |
+| `09_PRICING_CANONICO.md` | **Única tabla de precios válida** + economía unitaria y punto de equilibrio. Prevalece sobre cifras de 00/03/04b/05 |
+| `10_ANALISIS_CRITICO.md` | Auditoría interna (jul 2026): fortalezas, incógnitas existenciales, discrepancias corregidas, camino a EBITDA. **Leer antes de cualquier pitch** |
+| `11_PLAN_VALIDACION.md` | Plan 30-60-90 días con criterios de éxito: facturas reales, base del recargo, canal, SAM en pesos |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
 | `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia). **No leerlos** — ver abajo. |
@@ -61,9 +64,13 @@ python3 demo_interactivo.py    # versión interactiva
 - **Idioma**: todo el contenido (docs, comentarios, nombres de variables de dominio, salida de consola) está en **español**. Mantenerlo así.
 - **Moneda**: CLP (pesos chilenos). Costos de hardware a veces en USD; indicar siempre la unidad.
 - **Regla regulatoria central (CNE)**: el recargo por factor de potencia es **1% por cada 0.01 bajo el límite de 0.93**. Factor ≥ 0.93 = sin recargo. Cualquier cálculo que toque factor de potencia debe respetar esta regla.
-- **Tarifas**: BT2 = energía + potencia contratada (comercio, 10–50 kW). BT3 = energía + demanda máxima (manufactura pequeña, >50 kW). Punta = abril–septiembre, 18:00–22:00.
+- **Base del recargo (⚠️ pendiente de verificar)**: el simulador lo aplica sobre el **costo de energía** (conservador); la base exacta (energía vs factura total, ~2.4x de diferencia) se valida con facturas reales — flag `RECARGO_SOBRE_FACTURA_TOTAL` en `factura_electrica.py`, plan en `11_PLAN_VALIDACION.md`.
+- **Tarifas**: BT2 = energía + potencia contratada (comercio, 10–50 kW); **BT2 NO mide demanda punta**. BT3 = energía + demanda máxima (manufactura pequeña, >50 kW). Punta = abril–septiembre (6 meses), 18:00–22:00, solo BT3/BT4.
+- **Metodología del simulador (corregida jul 2026)**: ahorros **sin IVA** (crédito fiscal), payback **neto de opex** (SaaS + mantenimiento), ROI = beneficio neto/capex (sin devolución del capital), año = 6 meses punta + 6 normales. No degradar estas correcciones al editar.
 - **Trazabilidad**: los números "reales" provienen de CNE 2026 y distribuidoras (Enel, CGE, Saesa, Edelmag). Los valores marcados con `*` en las tablas son estimaciones. Al agregar cifras nuevas, citar la fuente o marcarlas como estimadas — no inventar precisión.
-- **Precisión declarada del simulador**: ~95%; no modela peajes de transmisión variables, contribuciones fiscales especiales ni cargos por atraso. Ver la sección "Advertencias sobre precisión" en `FUENTES_Y_DESPERDICIO.md`.
+- **Precisión declarada del simulador**: no modela cargo fijo mensual, peajes de transmisión variables, contribuciones fiscales especiales ni cargos por atraso; **aún sin validar contra facturas reales**. Ver "Advertencias sobre precisión" en `FUENTES_Y_DESPERDICIO.md`.
+- **Pricing**: toda cifra de precio/ingreso se define en `09_PRICING_CANONICO.md`; no introducir precios nuevos en otros documentos.
+- **Tablas de casos**: el README y `FUENTES_Y_DESPERDICIO.md` §1 se regeneran desde la salida real de `demo_automatica.py` — si cambias el simulador, vuelve a correr la demo y actualiza ambas tablas.
 
 ## Carpeta `fuentes_pdf/` — no leer
 

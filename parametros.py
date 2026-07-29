@@ -94,8 +94,10 @@ class Parametros:
     #
     # Por qué importa:
     # - Factor <0.93 → recargo de 1% POR CADA 0.01 bajo 0.93
-    # - Ejemplo: Factor 0.85 → recargo de 8% en la factura
-    # - Ejemplo: Factor 0.80 → recargo de 13% en la factura
+    # - Ejemplo: Factor 0.85 → recargo de 8%; Factor 0.80 → recargo de 13%
+    # - BASE del recargo: este simulador lo aplica sobre el COSTO DE ENERGÍA
+    #   (criterio conservador; ver RECARGO_SOBRE_FACTURA_TOTAL en
+    #   factura_electrica.py — base exacta pendiente de verificar con factura real)
 
     recargo_factor_potencia_pct: float
     # Descripción: Porcentaje de recargo por factor de potencia bajo
@@ -138,12 +140,12 @@ EJEMPLO_TIENDA_CONGELADOS = Parametros(
     tarifa=TarifaType.BT2,
     energia_mensual_kwh=3500,
     demanda_maxima_kw=55,
-    demanda_punta_kw=45,  # ~80% de la máxima
+    demanda_punta_kw=0,  # BT2 NO mide demanda punta (ver doc de tarifas)
     factor_potencia_actual=0.83,  # Refrigeración típicamente baja
     recargo_factor_potencia_pct=10.0,  # (0.93 - 0.83) * 100
     precio_energia_clp_per_kwh=195,  # Precio promedio 2026
     precio_potencia_clp_per_kw=14500,
-    precio_potencia_punta_clp_per_kw=18000,
+    precio_potencia_punta_clp_per_kw=0,  # No aplica en BT2
 )
 
 EJEMPLO_CALL_CENTER = Parametros(
@@ -151,12 +153,12 @@ EJEMPLO_CALL_CENTER = Parametros(
     tarifa=TarifaType.BT2,
     energia_mensual_kwh=2800,  # Menos que tienda (sin refrigeración industrial)
     demanda_maxima_kw=22,  # Computadores + aire acondicionado
-    demanda_punta_kw=18,  # ~80% de máxima
+    demanda_punta_kw=0,  # BT2 NO mide demanda punta
     factor_potencia_actual=0.90,  # Mejor que tienda (equipos más simples)
     recargo_factor_potencia_pct=3.0,  # (0.93 - 0.90) * 100
     precio_energia_clp_per_kwh=195,
     precio_potencia_clp_per_kw=14500,
-    precio_potencia_punta_clp_per_kw=18000,
+    precio_potencia_punta_clp_per_kw=0,  # No aplica en BT2
 )
 
 EJEMPLO_MANUFACTURA_PEQUENA = Parametros(
@@ -330,7 +332,7 @@ demanda_punta_kw (float)
     3. Revisar si hay "horas de punta" en tu contrato
 
   Impacto:
-    - Recargo adicional durante 4 meses (abril-septiembre)
+    - Recargo adicional durante 6 meses (abril-septiembre)
     - Típicamente 20-30% más caro que potencia normal
 
 ═══ 4. FACTOR DE POTENCIA ═══
@@ -385,10 +387,13 @@ recargo_factor_potencia_pct (float)
     - Factor 0.85: recargo 8% (típico manufactura)
     - Factor 0.80: recargo 13% (muy bajo, muy caro)
 
-  Impacto en factura:
-    Si factura es $1M y factor baja a 0.85:
-    → Costo adicional = $1M × 8% = $80,000/mes
-    → En un año = $960,000 por ineficiencia
+  Impacto (base: costo de ENERGÍA, criterio de este simulador):
+    Si el costo de energía es $700k/mes y el factor baja a 0.85:
+    → Costo adicional = $700,000 × 8% = $56,000/mes
+    → En un año = $672,000 por ineficiencia
+    Nota: la base exacta del recargo (energía vs factura total) está
+    pendiente de verificar contra factura real / decreto CNE.
+    Ver RECARGO_SOBRE_FACTURA_TOTAL en factura_electrica.py.
 
 ═══ 5. PRECIOS TARIFARIOS ═══
 

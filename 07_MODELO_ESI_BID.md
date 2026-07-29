@@ -27,7 +27,10 @@ distribuida** y generar confianza en el inversionista PYME. Se apoya en cuatro e
    de mediciones y duración (típicamente anual, hasta 5 años).
 2. **Seguro**: el proveedor compra y paga una póliza en beneficio del cliente; si el
    proyecto no alcanza el AGMG y el proveedor no compensa, la **aseguradora cubre el
-   siniestro**. Costo estimado en Chile: **0,5%–1% del valor asegurado**.
+   siniestro**. Costo estimado en Chile: **0,5%–1% del valor asegurado** (estimación de
+   las aseguradoras). *Nota: el análisis económico del propio estudio (§5, cuadro 15)
+   usa una prima de **1,5%** como supuesto conservador — no es contradicción, es el
+   supuesto de estrés del modelo.*
 3. **Validación**: una entidad técnica independiente valida el potencial de ahorro y
    verifica la instalación (árbitro vinculante). Las líneas base se establecen con
    **protocolos ISO 50001**. Costo: **~USD 1.500/proyecto**.

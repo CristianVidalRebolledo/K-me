@@ -3,6 +3,13 @@
 ## Objetivo
 Mapear exactamente de dónde salen los costos eléctricos en Chile para Pymes. Aquí es donde tu servicio genera valor.
 
+> **Nota (corregido jul 2026)**: los ejemplos numéricos de este documento usan los
+> precios canónicos del simulador (`parametros.py` / `FUENTES_Y_DESPERDICIO.md`
+> §Metodología: energía $190-195/kWh, potencia $13.500-14.500/kW/mes, punta
+> $17.500-18.000/kW/mes). Versiones anteriores usaban precios ilustrativos ~3x mayores
+> sin fuente. El recargo por factor de potencia se calcula aquí sobre el **costo de
+> energía** (base pendiente de verificar; ver `10_ANALISIS_CRITICO.md` §3.2).
+
 ---
 
 ## 1. Tarifarios BT2 vs BT3 (Diferencia Crítica)
@@ -17,12 +24,13 @@ COMPONENTES DE COBRO:
 ├─ Potencia contratada: $/kW × potencia contratada (fija)
 └─ Factor de potencia: Recargo % si cosϕ < 0.93
 
-EJEMPLO CLIENTE BT2 ($600k/mes factura):
-├─ Cargo fijo: $15k CLP
-├─ Energía consumida (800 kWh × $550 $/kWh): $440k CLP
-├─ Potencia contratada (20 kW × $2,000 $/kW): $40k CLP
-├─ Recargo factor de potencia (10%): $60k CLP
-└─ TOTAL: $555k CLP
+EJEMPLO CLIENTE BT2 (comercio con refrigeración, precios canónicos):
+├─ Cargo fijo: $15.0k CLP
+├─ Energía consumida (3,000 kWh × $195/kWh): $585.0k CLP
+├─ Potencia contratada (30 kW × $14,500/kW): $435.0k CLP
+├─ VAD distribución (3,000 kWh × $30/kWh): $90.0k CLP
+├─ Recargo factor de potencia (10% sobre energía): $58.5k CLP
+└─ TOTAL (neto, sin IVA): ~$1,183.5k CLP
 
 ⚠️ PROBLEMA: Paga potencia fija aunque consuma poco en punta
 💡 OPORTUNIDAD: Reducir potencia contratada si se optimiza demanda
@@ -36,18 +44,20 @@ COMPONENTES DE COBRO:
 ├─ Cargo fijo mensual: ~$20k-30k CLP/mes
 ├─ Energía (kWh): $/kWh × consumo total
 ├─ Demanda máxima (kW): $/kW × demanda máxima registrada en mes
-├─ Demanda en horas punta: $/kW × demanda máxima EN horas punta (18-23h)
+├─ Demanda en horas punta: $/kW × demanda máxima EN horas punta (18-22h, abr-sep)
 └─ Factor de potencia: Recargo % si cosϕ < 0.93
 
-EJEMPLO CLIENTE BT3 ($1.5M/mes factura):
+EJEMPLO CLIENTE BT3 (caso taller mecánica del simulador, mes con punta):
 ├─ Cargo fijo: $25k CLP
-├─ Energía consumida (2,500 kWh × $550 $/kWh): $1.375M CLP
-├─ Demanda máxima (50 kW × $3,000 $/kW): $150k CLP
-├─ Demanda horas punta (45 kW × $5,000 $/kW): $225k CLP
-├─ Recargo factor de potencia (12%): $180k CLP
-└─ TOTAL: $1.955M CLP
+├─ Energía consumida (8,000 kWh × $190/kWh): $1,520k CLP
+├─ Demanda máxima (85 kW × $13,500/kW): $1,148k CLP
+├─ Demanda horas punta (70 kW × $17,500/kW, solo abr-sep): $1,225k CLP
+├─ VAD distribución (8,000 kWh × $25/kWh): $200k CLP
+├─ Recargo factor de potencia (17% sobre energía): $258k CLP
+└─ TOTAL mes punta (neto, sin IVA): ~$4,376k CLP
+   (meses oct-mar, sin punta: ~$3,151k CLP)
 
-⚠️ PROBLEMA: Demanda punta cuesta casi 2x la demanda off-peak
+⚠️ PROBLEMA: en un mes punta, la demanda concentra ~54% de la factura
 💡 OPORTUNIDAD: Reducir demanda EN HORAS PUNTA = Ahorro máximo
 ```
 
@@ -57,26 +67,29 @@ EJEMPLO CLIENTE BT3 ($1.5M/mes factura):
 
 ```
 DEFINICIÓN OFICIAL:
-├─ Horario: 18:00 - 23:00 horas
-├─ Período: 1 Abril - 30 Septiembre (invierno)
-└─ Vigencia: Afecta cargo de demanda durante TODO el año
+├─ Horario: 18:00 - 22:00 horas
+├─ Período: 1 Abril - 30 Septiembre (invierno, 6 meses)
+└─ El cargo de punta se factura SOLO en esos meses (así lo modela el simulador)
 
 IMPACTO EN FACTURA:
-├─ Si demanda máxima en punta: Pago $/kW punta FULL por 12 meses
-├─ Si no hay demanda en punta: Pago más bajo (off-peak)
-└─ DIFERENCIA TÍPICA: 50-80% más caro en punta
+├─ Es un cargo ADICIONAL al de demanda máxima, durante abr-sep
+├─ Precio punta vs potencia normal: ~25-30% más caro por kW
+│  ($17,500-18,000 vs $13,500-14,500 según precios canónicos)
+└─ En un mes punta puede ser ~28% de la factura de un BT3 industrial
 
-FÓRMULA DE CÁLCULO:
-El cargo de demanda del mes es el MAYOR entre:
+FÓRMULA DE CÁLCULO (según pliego de la distribuidora):
+El cargo de demanda del mes puede tomar el MAYOR entre:
 ├─ Demanda máxima registrada en el mes actual
 └─ Promedio de 2 mayores demandas en últimos 12 meses EN HORAS PUNTA
+(⚠️ Verificar la fórmula exacta en el pliego tarifario de cada distribuidora;
+el simulador usa el modelo simple demanda × precio)
 
 EJEMPLO REAL:
 ├─ Cliente tiene máximo de 60 kW en febrero (off-peak)
-├─ Cliente tiene máximo de 50 kW en junio ENTRE 18-23h (punta)
-├─ Paga como si consumiera 60 kW... pero al precio de punta
+├─ Cliente tiene máximo de 50 kW en junio ENTRE 18-22h (punta)
+├─ Puede pagar como si consumiera 60 kW... pero al precio de punta
 │  (porque el promedio de 2 mayores demandas en punta incluye esos 50 kW)
-└─ RESULTADO: Paga mucho más por máxima registrada, aunque sea lower
+└─ RESULTADO: Paga mucho más por máxima registrada, aunque sea menor
 ```
 
 ---
@@ -86,31 +99,33 @@ EJEMPLO REAL:
 ### Ranking de Impacto en Factura (% del total)
 
 ```
-CLIENTE BT3 TÍPICO: $1.5M CLP/mes
+CLIENTE BT3 INDUSTRIAL (caso taller del simulador, mes punta, neto ~$4.38M):
 
-1️⃣ ENERGÍA: 70% (~$1.05M CLP)
-   ├─ Costo fijo por kWh consumido
+1️⃣ ENERGÍA: ~35% ($1,520k CLP)
+   ├─ Costo por kWh consumido
    ├─ Difícil de reducir sin cambiar proceso
-   └─ Oportunidad: Autogeneración (solar/eólica)
+   └─ Oportunidad: Autoconsumo solar (Net Billing) — payback largo, upsell
 
-2️⃣ DEMANDA EN HORAS PUNTA: 15% (~$225k CLP)
-   ├─ ⭐⭐⭐ MAYOR OPORTUNIDAD ⭐⭐⭐
-   ├─ Costo ~2x la demanda off-peak
-   ├─ Fija el cargo por 12 meses
+2️⃣ DEMANDA MÁXIMA: ~26% ($1,148k CLP)
+   ├─ Se paga los 12 meses
+   └─ Reducible solo con cambio de perfil operacional
+
+3️⃣ DEMANDA EN HORAS PUNTA: ~28% en mes punta ($1,225k CLP, solo abr-sep)
+   ├─ ⭐ Oportunidad estacional relevante
+   ├─ Precio ~25-30% mayor que la potencia normal
    ├─ REDUCIBLE con: BESS, Demand Response, Thermal Storage
-   └─ Ahorro potencial: $100-150k CLP/mes
+   └─ CAPEX alto (BESS): evaluar caso a caso con diagnóstico
 
-3️⃣ FACTOR DE POTENCIA: 10-15% (~$180k CLP)
-   ├─ Recargo por cosϕ < 0.93
-   ├─ REDUCIBLE con: Banco de condensadores (~$2M inversión)
-   ├─ Payback: 12-18 meses
-   └─ Ahorro potencial: $150-180k CLP/mes permanente
+4️⃣ FACTOR DE POTENCIA: ~6% ($258k CLP, todo el año)
+   ├─ ⭐⭐⭐ MEJOR RATIO AHORRO/CAPEX ⭐⭐⭐
+   ├─ Recargo por cosϕ < 0.93 (aquí 0.76 → 17% sobre energía)
+   ├─ REDUCIBLE con: Banco de condensadores (~$3.1M inversión)
+   └─ Payback neto: ~1.1 años en este caso (ver demo_automatica.py)
 
-4️⃣ DEMANDA OFF-PEAK: 5% (~$150k CLP)
-   ├─ Menos crítico
-   └─ Reducible solo si cambias perfil operacional
+5️⃣ VAD: ~5% ($200k CLP) — regulado, no reducible
 
-TOTAL OPORTUNIDAD DE AHORRO: $250-330k CLP/mes (~30% de factura)
+NOTA: en meses sin punta (oct-mar) la factura baja a ~$3.15M y el recargo por
+factor de potencia sigue presente — por eso es el ahorro más ESTABLE del año.
 ```
 
 ---
@@ -133,7 +148,7 @@ CONSECUENCIA:
 OPORTUNIDAD REGULATORIA:
 ├─ Gobierno busca incentivar demand response
 ├─ Necesita terceros (tipo ESCO) que hagan el trabajo
-├─ Modelo EPC + FFEE soluciona el problema
+├─ Modelo EPC + subsidio ("Ponle Energía a tu Pyme") soluciona el problema
 └─ Tú = Intermediario entre cliente y dinero público/ahorros
 ```
 
@@ -159,7 +174,7 @@ ETAPA 2: SOLUCIONES ESPECÍFICAS (Hardware + Consultoría)
 │  ├─ Inversión: $5M-15M CLP (depende kWh)
 │  ├─ Payback: 3-5 años
 │  ├─ Regulación: RGR N°06/2024 permite BESS + GD
-│  └─ Financiamiento: FFEE cubre 50%, cliente 50%, tú SaaS
+│  └─ Financiamiento: "Ponle Energía" 50-80% según tamaño (ver 03), tú SaaS
 
 ├─ Si FACTOR DE POTENCIA es problema (#3 oportunidad):
 │  ├─ Solución: Banco de condensadores (Var correction)
@@ -217,19 +232,17 @@ SOLUCIÓN: BESS 100 kWh
 ├─ Costo instalación: $1.5M CLP
 ├─ TOTAL PROYECTO: $7.5M CLP
 
-FINANCIAMIENTO:
-├─ FFEE cubre: 50% = $3.75M CLP (estado paga)
-├─ Cliente paga: 50% = $3.75M CLP
-└─ Modelo: BancoEstado línea energía @ 4.5% = $250k CLP/mes × 15 años
+FINANCIAMIENTO (actualizado: programa ancla "Ponle Energía a tu Pyme"):
+├─ Cofinanciamiento estatal: 50-80% según tamaño de empresa (ver 03)
+├─ Cliente paga el resto
+└─ Alternativa: BancoEstado Línea Verde (hasta 80%, hasta 12 años; ver 07 §8)
 
-TUS INGRESOS (Escenario Completo):
-├─ Instalación + engineering: $1M CLP (margen sobre costo)
-├─ Comisión FFEE (5% de $3.75M): $187.5k CLP
-├─ SaaS 60 meses @ $50k/mes: $3M CLP
-├─ Comisión EPC (25% de $120k × 60 meses): $1.8M CLP
-│  (Solo si modelo EPC, sino cliente paga SaaS)
-├─ Margen hardware + instalación: $200k-500k CLP
-└─ TOTAL INGRESOS: $6.2M - $6.7M CLP EN 5 AÑOS
+TUS INGRESOS (⚠️ cifras históricas ilustrativas — el pricing vigente y único
+válido está en 09_PRICING_CANONICO.md):
+├─ Instalación + engineering: margen sobre costo
+├─ Comisión gestión de subsidio: 3-5% del monto aprobado
+├─ SaaS híbrido: $30k/mes base + 15% del ahorro verificado
+└─ EPC: POSTERGADO hasta tener capital (ver 10_ANALISIS_CRITICO.md §3.4)
 
 CLIENTE AHORRA:
 ├─ Inversión: $3.75M CLP (50%, el resto es subsidio)
@@ -241,33 +254,27 @@ CLIENTE AHORRA:
 ### CASO 2: Cliente BT3 con Problema de Factor de Potencia
 
 ```
-CLIENTE ACTUAL:
-├─ Factura: $1.5M CLP/mes
-├─ Factor potencia: 0.82
-├─ Recargo: $180k CLP/mes
-├─ Ahorro potencial: $180k CLP/mes FIJO (12% factura)
+CLIENTE ACTUAL (caso panadería del simulador):
+├─ Factura promedio: ~$3.25M CLP/mes
+├─ Factor potencia: 0.81
+├─ Recargo: $125.4k CLP/mes (12% sobre costo de energía de $1,045k)
+├─ Ahorro potencial: $125.4k CLP/mes, todo el año
 
-SOLUCIÓN: Banco de Condensadores 75 kVAR
-├─ Costo: $2.2M CLP
+SOLUCIÓN: Banco de Condensadores
+├─ Hardware: $2.5M CLP
 ├─ Instalación: $600k CLP
-├─ TOTAL: $2.8M CLP
+├─ TOTAL: $3.1M CLP
 
 FINANCIAMIENTO:
-├─ BancoEstado línea energía: 100% @ 4.5%
-└─ Cuota mensual: $150k CLP × 18 meses (payback)
+├─ Cofinanciamiento "Ponle Energía a tu Pyme" (si hay convocatoria): 50-80%
+└─ Alternativa: BancoEstado Línea Verde
 
-TUS INGRESOS:
-├─ Margen hardware + instalación: $400k-600k CLP
-├─ Comisión FFEE (si postula - opcional): $100k-150k CLP
-├─ SaaS 36 meses @ $30k/mes: $1.08M CLP
-├─ Margen comisión BancoEstado (1-2%): $28k-56k CLP
-└─ TOTAL INGRESOS: $1.6M - $2M CLP EN 3 AÑOS
+RESULTADO CLIENTE (salida real de demo_automatica.py):
+├─ Ahorro neto de operación: $96.2k CLP/mes
+├─ Payback neto: 2.7 años ✅ VIABLE
+└─ ROI 5 años (neto): 86.3%
 
-CLIENTE AHORRA:
-├─ Inversión: $2.8M CLP
-├─ Ahorro mensual: $180k CLP
-├─ Payback: 15.5 meses
-└─ NETO año 3: +$3.6M CLP profit (después payback)
+TUS INGRESOS: ver pricing canónico en 09_PRICING_CANONICO.md
 ```
 
 ---
@@ -316,15 +323,14 @@ ISO 50006 + Protocolo CEE (Chile):
 └─ VALOR: CEE se venden a distribuidoras (dinero adicional)
 ```
 
-### Eficiencia Energética (FFEE)
+### Eficiencia Energética — programa ancla verificado
 ```
-Agencia Sostenibilidad y Clima:
-├─ Financia 40-50% de proyectos de eficiencia
-├─ Requiere: Diagnosis energética (ISO 50002)
-├─ Límite: Hasta $500k USD por proyecto
-├─ Ciclo: 6-12 meses
-├─ OPORTUNIDAD: Gestor de proyectos entre cliente + FFEE
-└─ COMISIÓN: 3-5% del monto aprobado (negociable)
+"Ponle Energía a tu Pyme" (Ministerio de Energía + AgenciaSE; ver 03):
+├─ Cofinancia: micro 80% ($4.5M), pequeña 70% ($8.5M), mediana 50% ($15M)
+├─ Financia: eficiencia energética y ER para autoconsumo
+├─ Fondo concursable, convocatorias anuales (verificar bases vigentes)
+├─ OPORTUNIDAD: Gestor de proyectos entre cliente + subsidio
+└─ COMISIÓN: 3-5% del monto aprobado [estimación] (ver 09_PRICING_CANONICO.md)
 ```
 
 ---

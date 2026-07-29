@@ -6,38 +6,45 @@
 
 **Problema:** Factor potencia <0.93 genera recargo de 1% por cada 0.01 bajo el límite
 
-**Ejemplo cuantitativo:**
+> ⚠️ **Base del recargo — pendiente de verificar (jul 2026)**: este repo aplica el
+> recargo sobre el **costo de energía** (criterio conservador, implementado en
+> `factura_electrica.py`). Algunas fuentes lo describen sobre la factura total (~2.4x
+> más). Verificar contra el decreto tarifario CNE y facturas reales antes de usar en
+> pitch — ver `11_PLAN_VALIDACION.md` §1.1-1.2.
+
+**Ejemplo cuantitativo (base: costo de energía):**
 
 Una empresa pequeña con:
-- Factura mensual: $1,000,000 CLP
+- Costo de energía: $700,000 CLP/mes
 - Factor potencia: 0.85 (típico en manufacturas con motores)
 - Recargo: (0.93 - 0.85) × 100 = **8%**
 
 ```
-Costo recargo = $1,000,000 × 8% = $80,000/mes
-Costo ANUAL = $80,000 × 12 = $960,000/año
-En 5 años = $4,800,000 CLP
+Costo recargo = $700,000 × 8% = $56,000/mes
+Costo ANUAL = $56,000 × 12 = $672,000/año
+En 5 años = $3,360,000 CLP
 ```
 
-**Casos reales que simulamos:**
+**Casos que simulamos** (salida real de `demo_automatica.py`, 28-jul-2026, simulador
+corregido; son casos SIMULADOS, no facturas reales):
 
-| Negocio | Factor | Factura/mes | Recargo/mes | Recargo/año | 5 años |
-|---------|--------|-------------|-------------|-------------|--------|
-| Tienda congelados | 0.83 | $2,931,268 | $68,250 | $819,000 | $4,095,000 |
-| Call center | 0.90 | $1,534,362 | $16,380 | $196,560 | $982,800 |
-| Taller mecánica | 0.76 | $4,250,000* | $405,000 | $4,860,000 | **$24,300,000** |
-| Lavandería | 0.79 | $2,500,000* | $280,000 | $3,360,000 | $16,800,000 |
-| Manufactura electrónica | 0.78 | $6,000,000* | $720,000 | $8,640,000 | **$43,200,000** |
+| Negocio | Factor | Factura/mes (prom.) | Recargo/mes | Recargo/año | 5 años |
+|---------|--------|---------------------|-------------|-------------|--------|
+| Tienda congelados (BT2) | 0.83 | $1,967,368 | $68,250 | $819,000 | $4,095,000 |
+| Call center (BT2) | 0.90 | $1,148,802 | $16,380 | $196,560 | $982,800 |
+| Panadería (BT3) | 0.81 | $3,253,638 | $125,400 | $1,504,800 | $7,524,000 |
+| Taller mecánica (BT3) | 0.76 | $4,448,696 | $258,400 | $3,100,800 | **$15,504,000** |
+| Lavandería (BT3) | 0.79 | $3,267,050 | $164,920 | $1,979,040 | $9,895,200 |
+| Manufactura electrónica (BT3) | 0.78 | $5,836,355 | $342,000 | $4,104,000 | **$20,520,000** |
 
-*Valores estimados basados en estructura de costos
+**Rango típico de desperdicio por factor potencia (sobre costo de ENERGÍA):**
+- Factor 0.90: ~3% = $30,000/año por cada $1M de costo de energía anual
+- Factor 0.85: ~8% = $80,000/año por cada $1M de costo de energía anual
+- Factor 0.80: ~13% = $130,000/año por cada $1M de costo de energía anual
+- Factor 0.75: ~18% = $180,000/año por cada $1M de costo de energía anual
 
-**Rango típico de desperdicio por factor potencia:**
-- Factor 0.90: ~3% = $30,000/año por cada $1M de factura
-- Factor 0.85: ~8% = $80,000/año por cada $1M de factura
-- Factor 0.80: ~13% = $130,000/año por cada $1M de factura
-- Factor 0.75: ~18% = $180,000/año por cada $1M de factura
-
-**Conclusión:** Una empresa mediana con factor 0.78 está pagando **$4-8M extra al año** por ineficiencia.
+**Conclusión:** Una empresa pequeña industrial con factor ≤0.78 está pagando
+**$3-4M extra al año** por ineficiencia (casos simulados taller y manufactura).
 
 ---
 
@@ -111,7 +118,7 @@ Si redujera 40% con BESS = $2,592,000 CLP de ahorro
 - [Tarifas Saesa](https://www.gruposaesa.cl)
 - Precios regionales del sur
 
-**Edelmag (XIV):**
+**Edelmag (XII, Magallanes):**
 - Tarifas zona austral (más caras ~10-15%)
 
 ### 3. Estudios y Análisis
@@ -176,7 +183,7 @@ Recargo: (0.93 - 0.83) × 100 = 10%
 Costo recargo: $682,500 × 10% = $68,250 ⚠️
 ```
 
-**Línea 4: Demanda punta (si aplica BT4)**
+**Línea 4: Demanda punta (si aplica; BT4 obligatorio, BT3 opcional — nunca BT2)**
 ```
 Demanda punta: 45 kW × $18,000 = $810,000 (solo abril-sep)
 ```
@@ -218,6 +225,8 @@ Si tu factor de potencia es <0.93, **estás pagando recargo invisible**.
 - Contribuciones fiscales especiales
 - Cargos por atraso o inspección
 - Bonificaciones por cliente de larga data
+- **Cargo fijo mensual** ($10k-30k/mes según tarifa; documentado en
+  `00_ESTRUCTURA_TARIFARIA_CHILE.md` pero no modelado)
 
 **PERO incluye:**
 - Componentes principales: energía, potencia, punta, recargo factor
@@ -245,7 +254,7 @@ Si tu factor de potencia es <0.93, **estás pagando recargo invisible**.
 
 **Por qué funciona:**
 - Es dinero REAL que pueden ahorrar
-- Payback corto (típicamente 0.6-2.5 años)
+- Payback corto cuando el factor es muy bajo (neto de opex: ~0.8-2.7 años con factor <0.82)
 - Cliente ve beneficio inmediato
 - Después puedes upsell BESS, solar, etc.
 
@@ -254,7 +263,7 @@ Si tu factor de potencia es <0.93, **estás pagando recargo invisible**.
 ## 📖 Cómo usar esta información en pitch
 
 ### A inversionistas:
-"Identificamos $1-8M/año de ineficiencia energética por factor potencia bajo en pequeñas empresas chilenas. Nuestra solución de condensadores tiene payback de 0.6-2 años, permitiendo a clientes recuperar inversión rápidamente."
+"Identificamos $0.8-4M/año de ineficiencia energética por factor potencia bajo en pequeñas empresas chilenas (casos simulados; base conservadora sobre costo de energía). En clientes industriales con factor <0.82, la corrección con condensadores tiene payback neto de ~1-3 años."
 
 ### A posibles clientes:
 "Tu factor potencia es 0.83. Eso significa estás pagando $X/mes innecesariamente por ineficiencia. Con condensadores, esto desaparece. Aquí está el análisis de tu factura real..."
@@ -267,11 +276,14 @@ Si tu factor de potencia es <0.93, **estás pagando recargo invisible**.
 ## ✅ Validación de datos
 
 **Última actualización:** Julio 2026
-**Precios base:** CNE 2026, Enel RM 2026
+**Precios base:** CNE 2026, Enel RM 2026 (pendiente trazar a la ficha tarifaria específica)
 **Factor potencia límite:** 0.93 (verificado CNE)
-**Recargo metodología:** 1% por 0.01 bajo límite (verificado en múltiples facturas)
+**Recargo metodología:** 1% por 0.01 bajo límite, verificado contra la estructura
+tarifaria publicada. ⚠️ **Aún NO validado con facturas reales** — la base del recargo
+(energía vs factura total) y la precisión del simulador se validan en
+`11_PLAN_VALIDACION.md` §1.1 (meta: 20-30 facturas reales, agosto 2026).
 
-**Fuentes cruzadas:** 3+ distribuidoras, CNE oficial, análisis de facturas reales
+**Fuentes cruzadas:** 3+ distribuidoras (sitios públicos), CNE oficial
 
 ---
 

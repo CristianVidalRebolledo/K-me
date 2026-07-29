@@ -3,6 +3,13 @@
 ## Objetivo
 Describir exactamente QUÉ vendes, a QUIÉN, y cómo generan beneficios "en entorno cerrado".
 
+> **Nota de actualización (jul 2026)**: las cifras de ingreso y precios de este documento
+> son el diseño histórico del servicio. **El pricing vigente y único válido está en
+> `09_PRICING_CANONICO.md`** (modelo híbrido $30k + 15% del ahorro; EPC postergado; CEE
+> valorado en $0 hasta verificar el mercado). Las referencias a "FFEE 50%" corresponden
+> al programa ancla actual **"Ponle Energía a tu Pyme"** (50–80% según tamaño, ver `03`).
+> Auditoría de las inconsistencias históricas: `10_ANALISIS_CRITICO.md` §4.3.
+
 ---
 
 ## 1. Redefinición del Servicio (vs SaaS puro)
@@ -251,12 +258,14 @@ Actividades mensuales:
 │  ├─ Reporta anomalías (equipo roto, desempeño bajo)
 │  └─ Propone expansión (agregar solar, mejorar thermal, etc)
 │
-├─ Generación de CEE:
+├─ Generación de CEE (⚠️ VALORAR EN $0 — ver 10_ANALISIS_CRITICO.md §3.4):
 │  ├─ Certificados de Eficiencia Energética (energía ahorrada)
-│  ├─ Tú eres verificador independiente (validación ISO 50006)
-│  ├─ Vendes CEE a distribuidoras (obligadas a comprar)
-│  ├─ Precio: ~$12 USD/MWh (mercado)
-│  └─ Ejemplo: 100 MWh/año × $12 = $1,200 USD = comisión $300 USD/año
+│  ├─ ⚠️ Mercado NO verificado como operativo en Chile (Ley 21.305): confirmar
+│  │   con AgenciaSE quién compra, a qué precio y con qué verificador acreditado
+│  ├─ ⚠️ Conflicto de interés: NO se puede ser "verificador independiente" del
+│  │   ahorro del que se cobra % — la verificación debe hacerla un tercero
+│  ├─ Precio referencial: ~$12 USD/MWh [estimación sin fuente operativa]
+│  └─ NO incluir esta línea en ninguna proyección de ingresos por ahora
 │
 ├─ Relación con electricista socio:
 │  ├─ Comisión recurrente mensual

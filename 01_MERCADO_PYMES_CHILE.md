@@ -38,6 +38,9 @@ marco de precios es estable y predecible entre procesos tarifarios.
   mediana (25.000–100.000 UF), grande (≥100.000 UF) **[dato SII]**.
 - De ese universo, **~220.000 empresas** son **grandes + PYME** (la PYME es el **23,5%**;
   la micro el **75,2%**) **[dato primario BID, IDB-TN-2038]**. Ver `07_MODELO_ESI_BID.md`.
+- **Nota de conciliación**: el "~1,5M registradas" (SII, 2026) y el "poco menos de 1M"
+  del BID (2020) no son contradictorios — difieren en año y en criterio (registradas vs
+  universo activo). Para prospección usar las **732.924 con ventas efectivas**.
 
 ### Distribución geográfica (MiPymes)
 
@@ -106,9 +109,12 @@ marco de precios es estable y predecible entre procesos tarifarios.
   factor de potencia esté bajo **0,93** **[dato]**.
   - Ejemplo: FP 0,86 → recargo del **7%** (0,93 − 0,86 = 0,07). *(Nota: una fuente ilustró
     mal el cálculo con 0,85; el método correcto es (0,93 − FP)×100.)*
-- **Impacto real**: en la práctica una empresa puede estar pagando **entre 15% y 35%
-  adicional** en su cuenta sin aumentar producción ni consumo activo **[dato]**.
-  → Rango mayor al 5–15% que asumíamos antes; refuerza el tamaño del dolor.
+- **Impacto según terceros**: una empresa podría estar pagando **entre 15% y 35%
+  adicional** en su cuenta **[estimación de tercero — fuente: blog comercial
+  NormaEléctrica, no verificada con facturas propias]**. Nuestro simulador, con base
+  conservadora (recargo sobre costo de energía), produce recargos de 3–17% de la
+  energía en los 6 casos simulados. La cifra real se valida con facturas en
+  `11_PLAN_VALIDACION.md` §1.1.
 - Se aplica principalmente a suministros **comerciales e industriales** (nuestro segmento) **[dato]**.
 - **Solución estándar**: bancos de condensadores para compensar energía reactiva y
   subir el FP sobre 0,93 **[dato]**.
@@ -123,6 +129,10 @@ marco de precios es estable y predecible entre procesos tarifarios.
 
 - **Potencial del mercado de EE**: del orden de **USD 100 millones**, según estudio del
   Ministerio de Energía con ~300 auditorías **[dato]**.
+  - **Nota de conciliación con el BID**: los ~USD 100M (Min. Energía) miden mercado
+    de *servicios de EE* detectado vía auditorías; los ~USD 3.000M del BID
+    (`07_MODELO_ESI_BID.md` §6) miden la *inversión total* que requerirían las 30.970
+    empresas de 4 subsectores. Unidades distintas — no son comparables directamente.
 - **Mercado ESCO actual**: mueve **~USD 15 millones/año** y se estima en solo el **10% de
   su potencial de crecimiento** **[dato]**. → Mercado incipiente, con espacio de 10x.
 - **ANESCO Chile** agrupa **~34 empresas**; sus miembros ejecutaron el **90% de los

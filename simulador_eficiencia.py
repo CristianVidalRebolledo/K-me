@@ -41,22 +41,30 @@ class Solucion:
 
 @dataclass
 class ProyeccionAhorro:
-    """Proyección de 5 años de una solución"""
+    """Proyección de 5 años de una solución.
+
+    Criterios metodológicos (corregidos jul 2026, ver 10_ANALISIS_CRITICO.md §4.1):
+    - El ahorro se calcula SIN IVA (para una empresa el IVA es crédito fiscal).
+    - El ahorro es promedio anual/12 (la punta solo aplica abril-septiembre).
+    - El payback usa el ahorro NETO de costos de operación (SaaS + mantenimiento).
+    - El ROI es beneficio neto / capex (NO incluye la devolución del capital).
+    """
 
     solucion: Solucion
-    ahorro_mensual_clp: float  # Ahorro promedio por mes
+    ahorro_mensual_clp: float  # Ahorro promedio por mes (sin IVA, promedio anual/12)
+    ahorro_neto_mensual_clp: float  # Ahorro - SaaS - mantenimiento/12
     capex_total_clp: float  # Inversión total inicial
 
     # Proyecciones a 5 años
     ahorro_total_5anos_clp: float
     costo_operacion_5anos_clp: float  # SaaS + mantenimiento
-    beneficio_neto_5anos_clp: float  # Ahorro - costos operación
+    beneficio_neto_5anos_clp: float  # Ahorro - costos operación - capex
 
     # Rentabilidad
-    payback_meses: float
+    payback_meses: float  # capex / ahorro NETO mensual (inf si ahorro neto <= 0)
     payback_anos: float
-    roi_pct: float
-    tir_aproximado: float
+    roi_pct: float  # beneficio neto 5 años / capex
+    retorno_anual_simple_pct: float  # ahorro neto anual / capex (no es TIR)
 
     # Adicional para tu negocio
     ingreso_tu_margen_hw_instalacion: float
@@ -88,7 +96,11 @@ class SimuladorEficiencia:
         """
         Simula parámetros DESPUÉS de aplicar la solución
         """
-        # Copiar parámetros y modificarlos
+        # Copiar parámetros y modificarlos.
+        # max(): la solución no puede EMPEORAR un factor de potencia ya bueno
+        fp_resultante = max(
+            self.param_antes.factor_potencia_actual, solucion.mejora_factor_potencia
+        )
         param_despues = Parametros(
             nombre_cliente=self.param_antes.nombre_cliente + f" + {solucion.nombre}",
             tarifa=self.param_antes.tarifa,
@@ -97,9 +109,9 @@ class SimuladorEficiencia:
             demanda_maxima_kw=self.param_antes.demanda_maxima_kw,  # No cambia
             demanda_punta_kw=self.param_antes.demanda_punta_kw
             * (1 - solucion.reduccion_demanda_punta_pct / 100),
-            factor_potencia_actual=solucion.mejora_factor_potencia,
+            factor_potencia_actual=fp_resultante,
             recargo_factor_potencia_pct=max(
-                0, (0.93 - solucion.mejora_factor_potencia) * 100
+                0, (0.93 - fp_resultante) * 100
             ),
             precio_energia_clp_per_kwh=self.param_antes.precio_energia_clp_per_kwh,
             precio_potencia_clp_per_kw=self.param_antes.precio_potencia_clp_per_kw,
@@ -118,8 +130,21 @@ class SimuladorEficiencia:
         # Aplicar solución
         param_despues, calc_despues, factura_despues = self.aplicar_solucion(solucion)
 
-        # Ahorro mensual
-        ahorro_mensual = self.factura_antes.total_mes_clp - factura_despues.total_mes_clp
+        # Ahorro anual SIN IVA (crédito fiscal para la empresa), considerando que
+        # la punta solo aplica abril-septiembre (calcular_factura_anual)
+        anual_antes = self.calc_antes.calcular_factura_anual()
+        anual_despues = calc_despues.calcular_factura_anual()
+        ahorro_anual = (
+            anual_antes["subtotal_anual_clp"] - anual_despues["subtotal_anual_clp"]
+        )
+        ahorro_mensual = ahorro_anual / 12
+
+        # Ahorro NETO de costos de operación (lo que el cliente ve en caja)
+        ahorro_neto_mensual = (
+            ahorro_mensual
+            - solucion.costo_saas_mensual_clp
+            - solucion.costo_mantenimiento_anual_clp / 12
+        )
 
         # CAPEX total
         capex_total = solucion.capex_hardware_clp + solucion.capex_instalacion_clp
@@ -136,24 +161,27 @@ class SimuladorEficiencia:
         # Beneficio neto (ahorro - costos operación - capex)
         beneficio_neto = ahorro_total_5anos - costo_operacion_total_5anos - capex_total
 
-        # Payback
-        if ahorro_mensual > 0:
-            payback_meses = capex_total / ahorro_mensual
+        # Payback sobre el ahorro NETO de opex: si el ahorro no cubre la
+        # operación, la inversión NUNCA se recupera (inf)
+        if ahorro_neto_mensual > 0:
+            payback_meses = capex_total / ahorro_neto_mensual
         else:
             payback_meses = float("inf")
         payback_anos = payback_meses / 12
 
-        # ROI simple (no considera TIR)
+        # ROI = beneficio neto / capex (SIN incluir la devolución del capital;
+        # 0% = empate, 100% = duplicó lo invertido)
         if capex_total > 0:
-            roi_pct = ((beneficio_neto + capex_total) / capex_total) * 100
+            roi_pct = (beneficio_neto / capex_total) * 100
         else:
             roi_pct = 0
 
-        # TIR aproximado (simplificado)
-        if payback_anos > 0:
-            tir_aproximado = (ahorro_mensual * 12 / capex_total) * 100
+        # Retorno anual simple (ahorro neto anual / capex). NO es una TIR:
+        # no descuenta flujos ni considera horizonte; solo referencia rápida.
+        if capex_total > 0:
+            retorno_anual_simple = (ahorro_neto_mensual * 12 / capex_total) * 100
         else:
-            tir_aproximado = 0
+            retorno_anual_simple = 0
 
         # Ingresos para tu startup
         margen_hw = solucion.capex_hardware_clp * (self.MARGEN_HARDWARE_PCT / 100)
@@ -169,6 +197,7 @@ class SimuladorEficiencia:
         return ProyeccionAhorro(
             solucion=solucion,
             ahorro_mensual_clp=ahorro_mensual,
+            ahorro_neto_mensual_clp=ahorro_neto_mensual,
             capex_total_clp=capex_total,
             ahorro_total_5anos_clp=ahorro_total_5anos,
             costo_operacion_5anos_clp=costo_operacion_total_5anos,
@@ -176,7 +205,7 @@ class SimuladorEficiencia:
             payback_meses=payback_meses,
             payback_anos=payback_anos,
             roi_pct=roi_pct,
-            tir_aproximado=tir_aproximado,
+            retorno_anual_simple_pct=retorno_anual_simple,
             ingreso_tu_margen_hw_instalacion=ingreso_hw_instalacion,
             ingreso_tu_saas_5anos=ingreso_saas_5anos,
             ingreso_tu_total_5anos=ingreso_total_tu,
@@ -205,10 +234,14 @@ class SimuladorEficiencia:
             f"  Factura DESPUÉS de solución: ${factura_despues.total_mes_clp:>14,.0f} CLP/mes"
         )
         lineas.append(
-            f"  AHORRO MENSUAL:              ${proyeccion.ahorro_mensual_clp:>14,.0f} CLP"
+            f"  AHORRO MENSUAL (sin IVA*):   ${proyeccion.ahorro_mensual_clp:>14,.0f} CLP"
         )
-        pct_ahorro = (proyeccion.ahorro_mensual_clp / self.factura_antes.total_mes_clp) * 100
+        lineas.append(
+            f"  Ahorro NETO de operación:    ${proyeccion.ahorro_neto_mensual_clp:>14,.0f} CLP"
+        )
+        pct_ahorro = (proyeccion.ahorro_mensual_clp / self.factura_antes.subtotal_clp) * 100
         lineas.append(f"  Porcentaje ahorro:           {pct_ahorro:>15.1f}%")
+        lineas.append(f"  (*) El IVA es crédito fiscal para la empresa: se excluye del ahorro")
 
         # Cambios en parámetros
         lineas.append(f"\n⚡ MEJORAS TÉCNICAS:")
@@ -267,12 +300,12 @@ class SimuladorEficiencia:
         )
         lineas.append(f"  Beneficio neto (5 años):     ${proyeccion.beneficio_neto_5anos_clp:>14,.0f} CLP")
 
-        if proyeccion.payback_anos < 100:
-            lineas.append(f"  PAYBACK:                     {proyeccion.payback_anos:>15.1f} años")
+        if proyeccion.payback_anos != float("inf"):
+            lineas.append(f"  PAYBACK (neto de opex):      {proyeccion.payback_anos:>15.1f} años")
         else:
-            lineas.append(f"  PAYBACK:                     > 10 años (NO VIABLE)")
+            lineas.append(f"  PAYBACK:                     NO SE RECUPERA (ahorro neto ≤ 0)")
 
-        lineas.append(f"  ROI (5 años):                {proyeccion.roi_pct:>15.1f}%")
+        lineas.append(f"  ROI (5 años, neto):          {proyeccion.roi_pct:>15.1f}%")
 
         # Viabilidad
         lineas.append(f"\n🎯 ANÁLISIS DE VIABILIDAD:")

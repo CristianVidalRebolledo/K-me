@@ -284,6 +284,18 @@ def opcion_4_documentacion():
 def main():
     """Programa principal"""
     while True:
+        try:
+            _iteracion_menu()
+        except (ValueError, IndexError):
+            print("\n❌ Entrada no válida (se esperaba un número). Intenta de nuevo.")
+        except (KeyboardInterrupt, EOFError):
+            print("\n\n👋 Hasta luego!\n")
+            sys.exit(0)
+
+
+def _iteracion_menu():
+    """Una iteración del menú principal (los errores de input se capturan en main)"""
+    if True:
         opcion = menu_principal()
 
         if opcion == "1":

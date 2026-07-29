@@ -39,7 +39,7 @@ python3 demo_automatica.py
 
 5. **`FUENTES_Y_DESPERDICIO.md`** ← LEE ESTO
    - Cuánto dinero desperdician consumidores (con números)
-   - Casos reales cuantificados (tienda = $819k/año, manufactura = $24M/5 años)
+   - Casos simulados cuantificados (tienda = $819k/año, manufactura = $20.5M/5 años)
    - Todas las fuentes: CNE, distribuidoras, estudios
    - Cómo verificar en factura real
    - Metodología del simulador
@@ -62,33 +62,43 @@ CASO: Taller Mecánica - Pequeño
   Factor potencia: 0.76 ← EL PROBLEMA
 
 ⚠️  DINERO DESPERDICIADO:
-  Recargo mensual: $405,000 CLP
-  Recargo ANUAL: $4,860,000 CLP 💸
-  En 5 años: $24,300,000 CLP
+  Recargo mensual: $258,400 CLP
+  Recargo ANUAL: $3,100,800 CLP 💸
+  En 5 años: $15,504,000 CLP
 
 ✅ SOLUCIÓN: Condensadores
   CAPEX: $3.1M
-  Ahorro anual: $4,860,000 CLP
-  
-📈 VIABILIDAD:
-  Payback: 0.6 años ✅ EXCELENTE
-  ROI cliente 5y: 731%
+  Ahorro anual (sin IVA): $3,100,800 CLP
+
+📈 VIABILIDAD (payback neto de opex):
+  Payback: 1.1 años ✅ EXCELENTE
+  ROI cliente 5y (neto): 343.7%
 ```
 
 ---
 
 ## 🎯 Los 6 casos analizados
 
-| # | Empresa | Tarifa | Factor | Factura/mes | Desperdicio/año | Payback |
-|---|---------|--------|--------|-------------|-----------------|---------|
-| 1 | Tienda congelados | BT2 | 0.83 | $2.93M | $819k | 0.9 años |
-| 2 | Call center 30 op. | BT2 | 0.90 | $1.53M | $196k | 2.5 años |
-| 3 | Panadería | BT3 | 0.81 | $3.2M | $648k | 1.2 años |
-| 4 | **Taller mecánica** | **BT3** | **0.76** | **$4.25M** | **$4.86M** | **0.6 años** ✅ |
-| 5 | Lavandería | BT3 | 0.79 | $2.5M | $3.36M | 0.9 años |
-| 6 | Manufactura elect. | BT3 | 0.78 | $6.0M | $8.64M | 0.7 años |
+> Tabla generada desde la salida real de `demo_automatica.py` (28-jul-2026, simulador
+> corregido: punta solo abr-sep y solo BT3/BT4; ahorro sin IVA; payback neto de opex;
+> recargo sobre costo de energía — base pendiente de verificar, ver
+> `10_ANALISIS_CRITICO.md`).
 
-**Conclusión:** Factor potencia bajo = dinero REAL siendo desperdiciado
+| # | Empresa | Tarifa | Factor | Factura/mes* | Desperdicio/año | Payback (neto) |
+|---|---------|--------|--------|--------------|-----------------|----------------|
+| 1 | Tienda congelados | BT2 | 0.83 | $1.97M | $819k | 6.6 años ❌ |
+| 2 | Call center 30 op. | BT2 | 0.90 | $1.15M | $197k | No se recupera ❌ |
+| 3 | Panadería | BT3 | 0.81 | $3.25M | $1.50M | 2.7 años ✅ |
+| 4 | **Taller mecánica** | **BT3** | **0.76** | **$4.45M** | **$3.10M** | **1.1 años** ✅ |
+| 5 | Lavandería | BT3 | 0.79 | $3.27M | $1.98M | 1.9 años ✅ |
+| 6 | Manufactura elect. | BT3 | 0.78 | $5.84M | $4.10M | 0.8 años ✅ |
+
+*Promedio anual/12 (la punta solo aplica abril-septiembre).
+
+**Conclusión honesta:** el negocio de condensadores es excelente cuando el factor es MUY
+bajo (<0.82, casos BT3 industriales) y NO es viable cuando el recargo es pequeño. Por eso
+la primera venta es el **diagnóstico pagado**, que separa un caso del otro con datos
+(ver `09_PRICING_CANONICO.md`).
 
 ---
 
@@ -119,7 +129,7 @@ Corre simulación personalizada
 ```
 Encuentra caso similar a su negocio
 Muestra números realistas
-"Si eres como este taller, ahorrarías $4.86M/año"
+"Si eres como este taller, ahorrarías $3.1M/año"
 ```
 
 ---
