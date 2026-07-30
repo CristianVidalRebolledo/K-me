@@ -36,7 +36,8 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `11_PLAN_VALIDACION.md` | Plan 30-60-90 días con criterios de éxito: facturas reales, base del recargo, canal, SAM en pesos |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
-| `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia). **No leerlos** — ver abajo. |
+| `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia externa). **No leerlos** — ver abajo. |
+| `docs_pdf/` | **Salida generada**: los .md de este repo exportados a PDF. **No leerlos** — ver abajo. |
 
 ### Simuladores (Python, sin dependencias externas)
 
@@ -49,6 +50,7 @@ Solo biblioteca estándar (`dataclasses`, `enum`, `typing`). No hay `requirement
 | `simulador_eficiencia.py` | `SimuladorEficiencia` / `Solucion` / `SolucionType`: proyecta 5 años de ahorro, payback, ROI para condensadores, BESS, thermal, solar. |
 | `demo_automatica.py` | **Punto de entrada principal.** Corre 6 casos sin inputs: factura → desperdicio → solución → ROI. |
 | `demo_interactivo.py` | Variante que pide inputs por consola. |
+| `md_a_pdf.py` | Exporta todos los .md de la raíz a PDF en `docs_pdf/`. Sin dependencias (genera el PDF con la biblioteca estándar). |
 
 Dependencias entre módulos: `demo_*` → `simulador_eficiencia` → `factura_electrica` → `parametros`.
 
@@ -57,6 +59,7 @@ Dependencias entre módulos: `demo_*` → `simulador_eficiencia` → `factura_el
 ```bash
 python3 demo_automatica.py     # demo principal, sin inputs
 python3 demo_interactivo.py    # versión interactiva
+python3 md_a_pdf.py            # exporta todos los .md a PDF en docs_pdf/
 ```
 
 ## Convenciones y reglas de dominio
@@ -72,15 +75,26 @@ python3 demo_interactivo.py    # versión interactiva
 - **Pricing**: toda cifra de precio/ingreso se define en `09_PRICING_CANONICO.md`; no introducir precios nuevos en otros documentos.
 - **Tablas de casos**: el README y `FUENTES_Y_DESPERDICIO.md` §1 se regeneran desde la salida real de `demo_automatica.py` — si cambias el simulador, vuelve a correr la demo y actualiza ambas tablas.
 
-## Carpeta `fuentes_pdf/` — no leer
+## Carpetas de PDF — NO LEER (`fuentes_pdf/` y `docs_pdf/`)
 
-La carpeta `fuentes_pdf/` contiene documentos oficiales (Ministerio de Energía, SII)
-descargados como **respaldo/evidencia**. **No los leas con herramientas de IA/LLM**: son
-extensos y de codificación compleja (fuentes incrustadas, binario comprimido) y su lectura
-gasta muchos tokens con baja señal. **Los datos relevantes ya están extraídos y citados**
-en los Markdown (`01_MERCADO_PYMES_CHILE.md`, `03_SUBSIDIOS_FINANCIAMIENTO.md`). Usa esos
-resúmenes citados; abre los PDF solo si un humano necesita verificar la fuente primaria.
-Ver `fuentes_pdf/README.md` para el índice.
+**Ningún PDF de este repositorio debe leerse con herramientas de IA/LLM**: gasta muchos
+tokens con baja señal. Son dos carpetas con propósitos opuestos:
+
+### `fuentes_pdf/` — fuentes externas (ENTRADA)
+
+Documentos oficiales de terceros (BID, Ministerio de Energía, SII) descargados como
+**respaldo/evidencia**. Son extensos y de codificación compleja (fuentes incrustadas,
+binario comprimido). **Los datos relevantes ya están extraídos y citados** en los Markdown
+(`01_MERCADO_PYMES_CHILE.md`, `03_SUBSIDIOS_FINANCIAMIENTO.md`, `07_MODELO_ESI_BID.md`).
+Usa esos resúmenes citados; abre los PDF solo si un humano necesita verificar la fuente
+primaria. Ver `fuentes_pdf/README.md` para el índice.
+
+### `docs_pdf/` — salida generada (SALIDA)
+
+PDFs **generados automáticamente** desde los .md de este repo con `python3 md_a_pdf.py`,
+para lectura humana e impresión. **Nunca los leas ni los edites**: su contenido es una
+copia derivada del Markdown, que siempre es la fuente de verdad. Si algo debe cambiar, se
+edita el `.md` y se regenera el PDF. Están en `.gitignore` por ser regenerables.
 
 ## Al hacer cambios
 

@@ -7,6 +7,10 @@ __pycache__/
 venv/
 env/
 
+# PDFs generados desde los .md (regenerables con: python3 md_a_pdf.py)
+# Las fuentes externas de fuentes_pdf/ SÍ se versionan (son evidencia, no derivados)
+docs_pdf/
+
 # OS
 .DS_Store
 
