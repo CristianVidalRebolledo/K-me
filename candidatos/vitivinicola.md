@@ -206,5 +206,83 @@ cultivan, porque las primeras tienen el frío.
 
 ---
 
-**Estado**: ✅ Dossier del sector vitivinícola listo (jul 2026). Pendiente: poblar la lista
-de candidatos (§8) y ejecutar los 3 primeros diagnósticos.
+## 10. Programas públicos aplicables (para el pitch)
+
+Detalle y fuentes en `../03_SUBSIDIOS_FINANCIAMIENTO.md` §0-bis. Resumen para el vendedor:
+
+| Programa | Qué financia | Encaje con la bodega |
+|---|---|---|
+| **CNR – Ley de Riego 18.450** ⭐ | Hasta 90% de riego/drenaje, **permite ERNC** (bombeo solar, FV) | Viña con riego → financia la solar; concursable, ventanas anuales |
+| **FIA – Innovación de Interés Privado** ⭐ | Innovación agroalimentaria (hasta $50M/80% en validación) | Financia el **piloto** de telemetría + optimización de frío |
+| **CORFO** (PDT, PROFO, Crece, Ley I+D 35%) | Transferencia tecnológica, fomento, crédito tributario I+D | Llevar telemetría a un valle de viñas (grupo); I+D si hay producto propio |
+| **Ponle Energía a tu Pyme** | EE + ERNC (50–80%) | ⚠️ Sin convocatoria vigente desde 2022 — no comprometer |
+
+**Regla**: son **aceleradores**, no la base de la venta. El diagnóstico + factor de potencia
+cierra con la economía del cliente; el subsidio agranda el proyecto (solar, riego) y es un
+gancho ("te gestiono la postulación"). Postula la bodega; nosotros asesoramos (comisión 3–5%).
+
+⚠️ **Timing**: varias convocatorias 2026 ya cerraron (jun–jul). Planificar para el **ciclo
+2027** y verificar bases al abrirse cada llamado.
+
+---
+
+## 11. Diálogo de ventas (guion para el vendedor)
+
+> Guion base, adaptable. Objetivo de la primera conversación: **vender el diagnóstico
+> pagado**, no la solución. No prometer ahorros en cifras hasta tener la factura real.
+
+### Apertura (gancho: el recargo invisible + el pico de vendimia)
+
+> "Hola [nombre], hablo de [empresa]. Trabajamos con bodegas ayudándolas a bajar la cuenta
+> de luz, sobre todo la del frío. Una pregunta rápida: **¿sabía que sus compresores de
+> refrigeración probablemente le están sumando un recargo por factor de potencia que ni
+> siquiera aparece como línea separada en la factura?** A la mayoría de las bodegas les
+> pasa y no lo ven. ¿Le hace sentido que conversemos 5 minutos?"
+
+Gancho alternativo (estacional): *"¿Cómo se le dispara la cuenta en vendimia cuando todo el
+frío trabaja al máximo?"*
+
+### Descubrimiento (calificar — 4 preguntas)
+
+1. "¿Vinifican acá o solo cultivan?" → *(nos interesa quien vinifica: tiene el frío)*
+2. "¿Cuánto les llega la cuenta de luz en un mes de vendimia, más o menos?" → *(tamaño)*
+3. "¿Saben qué factor de potencia les marca la factura? ¿0.9-algo?" → *(dolor)*
+4. "¿Quién les ve hoy el tema eléctrico?" → *(canal / competencia)*
+
+Si vinifica + factura relevante + factor bajo/desconocido → **es candidato**.
+
+### Propuesta de valor (el diagnóstico)
+
+> "Le propongo algo concreto: instalamos un medidor por 30 días en su tablero —**sin cortar
+> nada, sin obra**, lo pone un eléctrico autorizado— y le entregamos un informe que le dice
+> exactamente **en qué se va la energía, cuánto le cuesta el recargo del frío, y cuánto
+> podría recuperar**. Con números de su bodega, no de un folleto. Eso cuesta [monto] y si
+> avanza con una solución, se lo descuento del proyecto."
+
+### Manejo de objeciones
+
+| Objeción | Respuesta |
+|---|---|
+| *"Ya tengo electricista"* | "Perfecto, trabajamos **con** su eléctrico —él instala. Nosotros ponemos el análisis y el monitoreo que un eléctrico normalmente no hace: medir el factor de potencia y cuantificar el ahorro." |
+| *"No es buen momento, estamos en vendimia"* | "Justamente vendimia es **el mejor momento para medir**, porque es cuando el frío trabaja al máximo y se ve el problema real. La instalación toma una hora y no interrumpe nada." |
+| *"¿Y cómo sé que voy a ahorrar?"* | "No le prometo un número hasta medir. Por eso es un **diagnóstico**: si los datos no muestran ahorro que valga la pena, se lo digo y no le vendo nada. Solo avanzamos si el payback es corto." |
+| *"Está caro / hay subsidio?"* | "El diagnóstico se descuenta si avanza. Y sí: hay programas (Ley de Riego, FIA) que pueden cofinanciar la inversión mayor; **yo le gestiono la postulación**." |
+| *"Mándame info por correo"* | "Se la mando, pero lo que de verdad sirve es la medición de su bodega. ¿Le parece si agendamos la visita del medidor para [fecha] y de paso ve el informe?" |
+
+### Cierre
+
+> "Entonces quedamos así: [fecha] pasa el técnico, instala el medidor —una hora, sin
+> cortar—, y en [X] semanas le tengo el informe con los números. ¿Le queda bien [día]?"
+
+### Segunda conversación (tras el informe / expansión)
+
+- Presentar el ahorro **con sus datos** → proponer condensadores (payback corto).
+- Mencionar el **frío en punta** y la **solar con Ley de Riego** como fase siguiente.
+- Dejar sembrado el **orujo/borra**: *"su orujo hoy probablemente lo regala; tiene aceite
+  de pepita, polifenoles y ácido tartárico recuperables — cuando quiera lo vemos"* (§6).
+
+---
+
+**Estado**: ✅ Dossier del sector vitivinícola listo (jul 2026), con programas públicos y
+diálogo de ventas. Pendiente: poblar la lista de candidatos (§8) y ejecutar los 3 primeros
+diagnósticos.

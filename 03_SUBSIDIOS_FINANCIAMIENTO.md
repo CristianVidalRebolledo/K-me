@@ -3,6 +3,71 @@
 ## Objetivo
 Mapear fuentes públicas de financiamiento para Pymes.
 
+> **Índice rápido**: §0 programa ancla de energía (Ponle Energía, sin convocatoria vigente);
+> §0-bis **programas del sector agro** (CNR, FIA, CORFO, INDAP) — más numerosos que los de
+> energía y **clave para viñas/packing/agroindustria**; §1 instrumentos generales;
+> §2 estructura de ingresos.
+
+---
+
+## 0-bis. Programas del sector AGRO (aplican a viñas, packing, agroindustria)
+
+> El sector agropecuario tiene **más instrumentos** que el general de energía, incluyendo
+> **transferencia tecnológica**. Muchos son fondos concursables **anuales** con ventanas
+> específicas: al cierre de esta revisión (jul 2026) varias convocatorias 2026 ya cerraron
+> (jun–jul) → planificar para el **ciclo 2027**. Verificado jul 2026.
+
+### A. CNR — Ley de Riego 18.450 (el más potente para el agro) ⭐
+
+- **Qué**: subsidia hasta **90% del costo** de proyectos de riego/drenaje, y **permite
+  incorporar energías renovables** al proyecto (bombeo solar, fotovoltaica para riego)
+  **[dato CNR]**.
+- **Vigencia 2026**: **Concurso Nacional de Innovación (Nº 12-2026)** con elegibilidad para
+  **AgriPV, FV flotante en tranques, y IA para programación de riego**; postulación
+  **5-jun a 21-jul-2026** (cerrada) **[dato]**. Es concursable, con llamados recurrentes.
+- **Antecedente**: convenio CNR + Min. Energía entregó **$1.500 millones** a proyectos de
+  riego con energías limpias **[dato]**.
+- **Encaje**: una viña/packing con bombeo de riego puede financiar FV con este instrumento;
+  nosotros entramos por la eficiencia eléctrica y podemos gestionar la postulación.
+- **Fuente**: https://www.cnr.gob.cl/temas-transversales/energias-renovables-en-riego/ y
+  https://www.cnr.gob.cl/agricultores/como-postular/
+
+### B. FIA — Fundación para la Innovación Agraria (transferencia tecnológica) ⭐
+
+- **Qué**: cofinancia **innovación** en la cadena agroalimentaria y forestal. Nuestro
+  servicio de gestión de energía + telemetría califica como innovación de proceso.
+- **Vigencia 2026** — Proyectos de Innovación de Interés Privado **[dato FIA]**:
+  - **Línea 1** (validación temprana): hasta **$50M / 80%** del costo; cierre 25-jun-2026.
+  - **Línea 2** (validación y pilotaje en condiciones reales): abrió 25-jun-2026.
+  - **Línea 3** (implementación y escalamiento comercial): abrió 28-jul-2026.
+- **Encaje**: ideal para financiar un **piloto** con una viña "innovadora" (telemetría +
+  optimización de frío), posicionándonos como socio tecnológico.
+- **Fuente**: https://www.fia.cl/pilares-de-accion/impulso-para-innovar/convocatorias/
+
+### C. CORFO — fomento y transferencia tecnológica [verificar bases vigentes]
+
+- **PDT (Programa de Difusión Tecnológica)**: financia transferir una tecnología a un grupo
+  de empresas de un sector → encaja para llevar telemetría/EE a un valle de viñas.
+- **PROFO (Proyectos Asociativos de Fomento)**: grupos de pymes que abordan una mejora común.
+- **Crece / Fortalece Pyme**: cofinanciamiento de inversión pyme.
+- **Ley I+D (Ley 20.241)**: **crédito tributario del 35%** sobre inversión en I+D
+  certificada por CORFO → aplica si desarrollamos producto propio con un cliente.
+- **Fuente**: https://www.corfo.cl (verificar convocatorias y montos vigentes por instrumento).
+
+### D. INDAP y SERCOTEC (según tamaño)
+
+- **INDAP**: agricultura familiar campesina (productores pequeños) — riego, suelos
+  (SIRSD-S). Relevante para viñas/parronales chicos, no para bodegas medianas.
+- **SERCOTEC**: Crece, Capital Semilla/Abeja — microempresa. Menor encaje con nuestro ticket.
+
+### Regla de uso (igual que con Ponle Energía)
+
+Estos programas son **aceleradores**, no la base de la venta: el diagnóstico + corrección
+de factor de potencia debe cerrar con la economía propia del cliente. El subsidio agranda
+el proyecto (solar, BESS, riego) y es un **gancho de conversación** ("puedo gestionarte la
+postulación a la Ley de Riego / FIA"). Postula el cliente; nosotros asesoramos y cobramos
+gestión (3–5%, ver `09_PRICING_CANONICO.md`).
+
 ---
 
 ## 0. Programa ancla: "Ponle Energía a tu Pyme" (Ministerio de Energía + AgenciaSE)
