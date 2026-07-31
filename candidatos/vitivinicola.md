@@ -192,15 +192,17 @@ cultivan, porque las primeras tienen el frío.
 
 1. **Poblar la tabla §8** con 20–30 bodegas de un valle acotado (empezar por uno: p. ej.
    Maule o Itata, alta densidad).
-2. **Guion de contacto**: entrar por el dolor de vendimia y el recargo invisible —
-   *"¿sabías que tus compresores de frío probablemente te están sumando un recargo por
-   factor de potencia que no aparece como línea en la factura?"*
+2. **Guion de contacto**: entrar por el dolor de vendimia y el recargo mal entendido —
+   *"¿sabía que sus equipos de frío probablemente le están cargando una multa en la cuenta
+   de la luz que casi nadie revisa ni sabe cómo eliminar?"* (registro **usted**, igual que
+   el guion completo de §11).
 3. **Oferta de entrada**: diagnóstico pagado con medición real de 30 días (idealmente
    cubriendo vendimia).
 4. **Verificaciones del sector** (además de las de `../11_PLAN_VALIDACION.md`):
    - [ ] Confirmar factor de potencia real de 3–5 bodegas (dato del diagnóstico).
    - [ ] Confirmar tarifa (¿BT3? ¿AT si son grandes?) y si miden demanda punta.
-   - [ ] Estimar el pico de vendimia vs. base para dimensionar peak shaving.
+   - [ ] Estimar el pico de vendimia vs. base para dimensionar el aplanamiento del pico
+         de demanda (peak shaving).
    - [ ] Mapear quién compra orujo hoy en la zona (destilerías, extractores) para la
          conversación de residuos.
 
@@ -208,18 +210,29 @@ cultivan, porque las primeras tienen el frío.
 
 ## 10. Programas públicos aplicables (para el pitch)
 
-Detalle y fuentes en `../03_SUBSIDIOS_FINANCIAMIENTO.md` §0-bis. Resumen para el vendedor:
+Detalle y fuentes en `../03_SUBSIDIOS_FINANCIAMIENTO.md` §0-bis. Resumen para el vendedor.
+Siglas: **EE** = eficiencia energética; **ERNC** = energías renovables (solar, eólica, etc.);
+**FV** = fotovoltaica (paneles solares); **I+D** = investigación y desarrollo.
 
-| Programa | Qué financia | Encaje con la bodega |
+| Programa | Qué financia | Encaje con el cliente |
 |---|---|---|
-| **CNR – Ley de Riego 18.450** ⭐ | Hasta 90% de riego/drenaje, **permite ERNC** (bombeo solar, FV) | Viña con riego → financia la solar; concursable, ventanas anuales |
-| **FIA – Innovación de Interés Privado** ⭐ | Innovación agroalimentaria (hasta $50M/80% en validación) | Financia el **piloto** de telemetría + optimización de frío |
-| **CORFO** (PDT, PROFO, Crece, Ley I+D 35%) | Transferencia tecnológica, fomento, crédito tributario I+D | Llevar telemetría a un valle de viñas (grupo); I+D si hay producto propio |
+| **CNR – Ley de Riego 18.450** ⭐ | Hasta 90% de obras de riego/drenaje; **permite incluir energía solar para el riego** (bombeo solar / paneles) | Aplica al **campo con riego**, NO al frío de la bodega. Solo si el mismo dueño tiene riego propio. Concursable, ventanas anuales |
+| **FIA – Innovación de Interés Privado** ⭐ | Innovación agroalimentaria (hasta $50M / 80% en validación) | Financia el **piloto** de telemetría + optimización de frío |
+| **CORFO** (PDT, PROFO, Crece, Ley I+D con crédito tributario 35%) | Transferencia tecnológica, fomento, crédito por I+D | Llevar telemetría a un valle de viñas (grupo); I+D si hay producto propio |
 | **Ponle Energía a tu Pyme** | EE + ERNC (50–80%) | ⚠️ Sin convocatoria vigente desde 2022 — no comprometer |
 
-**Regla**: son **aceleradores**, no la base de la venta. El diagnóstico + factor de potencia
-cierra con la economía del cliente; el subsidio agranda el proyecto (solar, riego) y es un
-gancho ("te gestiono la postulación"). Postula la bodega; nosotros asesoramos (comisión 3–5%).
+**Aclaración importante (viña vs bodega)**: el dolor que atacamos es el **frío de la bodega**
+(eléctrico). Para eso **no aplica la Ley de Riego** (que es para el riego del campo) ni la
+solar de la bodega califica como riego. La solar de la bodega va por **Net Billing**
+(`../08_PANORAMA_INDUSTRIA.md`). CNR solo entra si el cliente además tiene riego propio y
+quiere solar **para el bombeo de riego**. No ofrecer Ley de Riego para condensadores/frío.
+
+**Regla**: los subsidios son **aceleradores**, no la base de la venta. El diagnóstico +
+corrección de factor de potencia cierra con la economía propia del cliente; el subsidio
+agranda el proyecto (solar, riego) y es un gancho de conversación ("le gestiono la
+postulación"). La bodega postula como titular; nosotros gestionamos la postulación y
+cobramos una comisión de **3–5% sobre el monto aprobado del subsidio** (ver
+`../09_PRICING_CANONICO.md`).
 
 ⚠️ **Timing**: varias convocatorias 2026 ya cerraron (jun–jul). Planificar para el **ciclo
 2027** y verificar bases al abrirse cada llamado.
@@ -228,58 +241,79 @@ gancho ("te gestiono la postulación"). Postula la bodega; nosotros asesoramos (
 
 ## 11. Diálogo de ventas (guion para el vendedor)
 
-> Guion base, adaptable. Objetivo de la primera conversación: **vender el diagnóstico
-> pagado**, no la solución. No prometer ahorros en cifras hasta tener la factura real.
+> Guion base, adaptable. Registro: **usted** (formal, como corresponde a un primer
+> contacto con un dueño de bodega). Objetivo de la primera conversación: **vender el
+> diagnóstico pagado**, no la solución. **Regla de oro**: no prometer cifras de ahorro
+> hasta tener la factura real medida (ver `../10_ANALISIS_CRITICO.md`). Traducir todo
+> tecnicismo a lenguaje simple; el término técnico se introduce solo después, con interés
+> ya ganado.
 
-### Apertura (gancho: el recargo invisible + el pico de vendimia)
+### Apertura (gancho: la multa oculta del frío + el pico de vendimia)
 
 > "Hola [nombre], hablo de [empresa]. Trabajamos con bodegas ayudándolas a bajar la cuenta
-> de luz, sobre todo la del frío. Una pregunta rápida: **¿sabía que sus compresores de
-> refrigeración probablemente le están sumando un recargo por factor de potencia que ni
-> siquiera aparece como línea separada en la factura?** A la mayoría de las bodegas les
-> pasa y no lo ven. ¿Le hace sentido que conversemos 5 minutos?"
+> de luz, sobre todo la del frío. Una pregunta rápida: **¿sabía que sus equipos de frío
+> probablemente le están cargando una multa en la cuenta de la luz que casi nadie revisa
+> ni sabe cómo eliminar?** A la mayoría de las bodegas les pasa. ¿Le parece si le hago una
+> pregunta y vemos si tiene sentido conversar?"
 
-Gancho alternativo (estacional): *"¿Cómo se le dispara la cuenta en vendimia cuando todo el
-frío trabaja al máximo?"*
+- *Nota para el vendedor*: esa "multa" es el **recargo por factor de potencia** (bajo cosϕ).
+  No use el término técnico en la primera frase; introdúzcalo recién si el dueño pregunta
+  "¿qué multa?".
+
+Gancho alternativo (estacional): *"¿Cómo se le dispara la cuenta en vendimia, cuando todo
+el frío trabaja al máximo?"*
 
 ### Descubrimiento (calificar — 4 preguntas)
 
 1. "¿Vinifican acá o solo cultivan?" → *(nos interesa quien vinifica: tiene el frío)*
-2. "¿Cuánto les llega la cuenta de luz en un mes de vendimia, más o menos?" → *(tamaño)*
-3. "¿Saben qué factor de potencia les marca la factura? ¿0.9-algo?" → *(dolor)*
+2. "¿La cuenta de luz en vendimia les llega más cerca de 1, 3 o 5 millones?" → *(tamaño,
+   en rango, sin pedir la cifra exacta a un desconocido)*
+3. "¿Ha notado en la factura algún cargo que no sabe bien de dónde sale? No se preocupe si
+   no lo tiene claro —eso es justo lo que medimos." → *(dolor, sin exigir el dato técnico)*
 4. "¿Quién les ve hoy el tema eléctrico?" → *(canal / competencia)*
 
-Si vinifica + factura relevante + factor bajo/desconocido → **es candidato**.
+Si vinifica + factura relevante + no controla el tema eléctrico → **es candidato**.
 
 ### Propuesta de valor (el diagnóstico)
 
-> "Le propongo algo concreto: instalamos un medidor por 30 días en su tablero —**sin cortar
-> nada, sin obra**, lo pone un eléctrico autorizado— y le entregamos un informe que le dice
-> exactamente **en qué se va la energía, cuánto le cuesta el recargo del frío, y cuánto
-> podría recuperar**. Con números de su bodega, no de un folleto. Eso cuesta [monto] y si
-> avanza con una solución, se lo descuento del proyecto."
+> "Le propongo algo concreto: instalamos un medidor en su tablero —**sin cortar nada, sin
+> obra**— que queda **midiendo 30 días** para ver bien la vendimia. Con eso le entregamos
+> un informe que le dice, **con los números de su bodega**, en qué se le va la energía,
+> **el rango real de lo que le cuesta ese cargo del frío**, y cuánto podría recuperar. Eso
+> cuesta **entre $300 y $500 mil** (según el tamaño de la bodega) y, si avanza con una
+> solución, se lo descuento del proyecto."
+
+- *Nota para el vendedor*: decimos **"el rango real"**, no "exactamente" — la base fina del
+  cálculo se confirma con la factura real (ver `../10_ANALISIS_CRITICO.md`). El monitoreo
+  del ahorro que ofrecemos después se llama medición y verificación (M&V).
 
 ### Manejo de objeciones
 
 | Objeción | Respuesta |
 |---|---|
-| *"Ya tengo electricista"* | "Perfecto, trabajamos **con** su eléctrico —él instala. Nosotros ponemos el análisis y el monitoreo que un eléctrico normalmente no hace: medir el factor de potencia y cuantificar el ahorro." |
-| *"No es buen momento, estamos en vendimia"* | "Justamente vendimia es **el mejor momento para medir**, porque es cuando el frío trabaja al máximo y se ve el problema real. La instalación toma una hora y no interrumpe nada." |
-| *"¿Y cómo sé que voy a ahorrar?"* | "No le prometo un número hasta medir. Por eso es un **diagnóstico**: si los datos no muestran ahorro que valga la pena, se lo digo y no le vendo nada. Solo avanzamos si el payback es corto." |
-| *"Está caro / hay subsidio?"* | "El diagnóstico se descuenta si avanza. Y sí: hay programas (Ley de Riego, FIA) que pueden cofinanciar la inversión mayor; **yo le gestiono la postulación**." |
-| *"Mándame info por correo"* | "Se la mando, pero lo que de verdad sirve es la medición de su bodega. ¿Le parece si agendamos la visita del medidor para [fecha] y de paso ve el informe?" |
+| *"Ya tengo electricista"* | "Perfecto, coordinamos con su eléctrico. La instalación del medidor la hace **nuestro técnico autorizado** (es un equipo específico), y lo que aportamos es el análisis y el monitoreo que un eléctrico normalmente no hace: medir cuánto le cuesta ese cargo y cuantificar el ahorro." |
+| *"No es buen momento, estamos en vendimia"* | "Justamente vendimia es **el mejor momento para medir**, porque es cuando el frío trabaja al máximo y se ve el problema real. Instalar el medidor toma una hora y no interrumpe nada." |
+| *"¿Y cómo sé que voy a ahorrar?"* | "No le prometo un número hasta medir. Por eso es un **diagnóstico**: si los datos no muestran un ahorro que valga la pena, se lo digo y no le vendo nada. Solo avanzamos si **la inversión se paga rápido con el ahorro**." |
+| *"¿Está caro? ¿Hay subsidio?"* | "El diagnóstico se descuenta si avanza. Y para la inversión mayor hay programas del agro (FIA, y la Ley de Riego si tiene riego propio) que pueden cofinanciar; **yo le gestiono la postulación**." |
+| *"Mándeme info por correo"* | "Se la mando, pero lo que de verdad sirve es la medición de su bodega. ¿Le parece si agendamos la visita del medidor para [fecha] y de paso ve el informe?" |
 
 ### Cierre
 
-> "Entonces quedamos así: [fecha] pasa el técnico, instala el medidor —una hora, sin
-> cortar—, y en [X] semanas le tengo el informe con los números. ¿Le queda bien [día]?"
+> "Entonces quedamos así: [fecha] pasa nuestro técnico e **instala el medidor en una hora,
+> sin cortar nada**; **queda midiendo 30 días** —cubriendo la vendimia— y **unas 2 semanas
+> después de retirarlo** le entrego el informe con los números. En total, alrededor de 6
+> semanas. ¿Le queda bien [día]?"
 
 ### Segunda conversación (tras el informe / expansión)
 
-- Presentar el ahorro **con sus datos** → proponer condensadores (payback corto).
-- Mencionar el **frío en punta** y la **solar con Ley de Riego** como fase siguiente.
-- Dejar sembrado el **orujo/borra**: *"su orujo hoy probablemente lo regala; tiene aceite
-  de pepita, polifenoles y ácido tartárico recuperables — cuando quiera lo vemos"* (§6).
+- Presentar el ahorro **con sus datos** → proponer condensadores (se pagan rápido).
+- Explicar que **el frío trabajando en horario de punta** (18–22h, abr–sep) encarece la
+  cuenta y que ese consumo se puede desplazar; proponerlo como fase siguiente. La solar,
+  si tiene riego, puede ir cofinanciada con la Ley de Riego (solo para el bombeo de riego);
+  la solar de la bodega va por Net Billing.
+- Dejar sembrados los residuos (§6): *"su orujo hoy probablemente lo regala, y de ahí se
+  sacan productos con valor —aceite y antioxidantes—; y de la borra, ácido para la
+  industria. Cuando quiera se lo mostramos con números."*
 
 ---
 

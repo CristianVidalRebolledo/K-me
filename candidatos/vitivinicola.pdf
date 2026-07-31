@@ -16,7 +16,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Type /Pages /Count 6 /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R] >>
+<< /Type /Pages /Count 7 /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] >>
 endobj
 7 0 obj
 << /Length 23487 >>
@@ -814,7 +814,7 @@ BT /F1 9.80 Tf 1 0 0 1 319.10 72.35 Tm (momentos:) Tj ET
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 1 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 1 de 7) Tj ET
 
 endstream
 endobj
@@ -1480,7 +1480,7 @@ BT /F4 8.00 Tf 1 0 0 1 62.00 58.00 Tm (      |                        · Salida M
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 2 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 2 de 7) Tj ET
 
 endstream
 endobj
@@ -2200,7 +2200,7 @@ BT /F2 13.50 Tf 1 0 0 1 288.56 80.37 Tm (magnitud\)) Tj ET
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 3 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 3 de 7) Tj ET
 
 endstream
 endobj
@@ -2208,7 +2208,7 @@ endobj
 << /Type /Page /Parent 6 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R /F5 5 0 R >> >> /Contents 11 0 R >>
 endobj
 13 0 obj
-<< /Length 21811 >>
+<< /Length 23643 >>
 stream
 0 g
 BT /F1 9.80 Tf 1 0 0 1 56.00 776.09 Tm (Basado) Tj ET
@@ -2659,57 +2659,83 @@ BT /F1 9.80 Tf 1 0 0 1 316.35 312.08 Tm (el) Tj ET
 0 g
 BT /F1 9.80 Tf 1 0 0 1 326.70 312.08 Tm (recargo) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 362.65 312.08 Tm (invisible) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 362.65 312.08 Tm (mal) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 400.22 312.08 Tm (—) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 381.16 312.08 Tm (entendido) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 408.39 312.08 Tm ("¿sabías) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 426.93 312.08 Tm (—) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 448.37 312.08 Tm (que) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 435.10 312.08 Tm ("¿sabía) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 467.44 312.08 Tm (tus) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 470.17 312.08 Tm (que) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 68.00 298.17 Tm (compresores) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 489.24 312.08 Tm (sus) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 127.36 298.17 Tm (de) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 68.00 298.17 Tm (equipos) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 140.98 298.17 Tm (frío) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 105.04 298.17 Tm (de) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 157.32 298.17 Tm (probablemente) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 118.67 298.17 Tm (frío) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 225.41 298.17 Tm (te) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 135.00 298.17 Tm (probablemente) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 236.31 298.17 Tm (están) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 203.09 298.17 Tm (le) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 263.00 298.17 Tm (sumando) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 213.44 298.17 Tm (están) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 306.03 298.17 Tm (un) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 240.14 298.17 Tm (cargando) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 319.65 298.17 Tm (recargo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 283.72 298.17 Tm (una) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 355.60 298.17 Tm (por) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 302.79 298.17 Tm (multa) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 372.49 298.17 Tm (factor) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 329.47 298.17 Tm (en) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 399.72 298.17 Tm (de) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 343.10 298.17 Tm (la) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 413.34 298.17 Tm (potencia) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 353.44 298.17 Tm (cuenta) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 453.11 298.17 Tm (que) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 385.59 298.17 Tm (de) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 472.18 298.17 Tm (no) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 399.21 298.17 Tm (la) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 485.80 298.17 Tm (aparece) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 409.56 298.17 Tm (luz) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 68.00 284.25 Tm (como) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 424.81 298.17 Tm (que) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 94.69 284.25 Tm (línea) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 443.88 298.17 Tm (casi) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 118.11 284.25 Tm (en) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 464.03 298.17 Tm (nadie) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 131.73 284.25 Tm (la) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 490.72 298.17 Tm (revisa) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 142.08 284.25 Tm (factura?") Tj ET
+BT /F3 9.80 Tf 1 0 0 1 519.58 298.17 Tm (ni) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 68.00 284.25 Tm (sabe) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 91.97 284.25 Tm (cómo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 118.66 284.25 Tm (eliminar?") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 164.61 284.25 Tm (\(registro) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 203.27 284.25 Tm (usted) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 229.41 284.25 Tm (,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 234.85 284.25 Tm (igual) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 258.28 284.25 Tm (que) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 277.35 284.25 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 287.70 284.25 Tm (guion) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 314.39 284.25 Tm (completo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 356.87 284.25 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 370.50 284.25 Tm (§11\).) Tj ET
 0 g
 BT /F1 9.80 Tf 1 0 0 1 68.00 268.84 Tm (3.) Tj ET
 0 g
@@ -2845,90 +2871,134 @@ BT /F1 9.80 Tf 1 0 0 1 265.55 207.17 Tm (para) Tj ET
 0 g
 BT /F1 9.80 Tf 1 0 0 1 287.89 207.17 Tm (dimensionar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 343.98 207.17 Tm (peak) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 343.98 207.17 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 367.95 207.17 Tm (shaving.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 354.33 207.17 Tm (aplanamiento) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 82.00 191.76 Tm (?) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 415.89 207.17 Tm (del) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 92.90 191.76 Tm ([) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 431.68 207.17 Tm (pico) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 98.35 191.76 Tm (]) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 452.38 207.17 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 103.80 191.76 Tm (Mapear) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 466.00 207.17 Tm (demanda) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 139.74 191.76 Tm (quién) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 509.58 207.17 Tm (\(peak) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 166.44 191.76 Tm (compra) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 82.00 193.26 Tm (shaving\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 201.83 191.76 Tm (orujo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 82.00 177.84 Tm (?) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 226.34 191.76 Tm (hoy) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 92.90 177.84 Tm ([) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 244.87 191.76 Tm (en) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 98.35 177.84 Tm (]) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 258.49 191.76 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 103.80 177.84 Tm (Mapear) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 268.84 191.76 Tm (zona) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 139.74 177.84 Tm (quién) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 292.81 191.76 Tm (\(destilerías,) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 166.44 177.84 Tm (compra) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 345.63 191.76 Tm (extractores\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 201.83 177.84 Tm (orujo) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 400.09 191.76 Tm (para) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 226.34 177.84 Tm (hoy) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 422.42 191.76 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 244.87 177.84 Tm (en) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 432.77 191.76 Tm (conversación) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 258.49 177.84 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 493.23 191.76 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 268.84 177.84 Tm (zona) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 82.00 177.84 Tm (residuos.) Tj ET
-0.75 G 0.5 w 56.00 161.32 m 539.28 161.32 l S 0 G
+BT /F1 9.80 Tf 1 0 0 1 292.81 177.84 Tm (\(destilerías,) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 56.00 121.42 Tm (10.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 345.63 177.84 Tm (extractores\)) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 78.52 121.42 Tm (Programas) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 400.09 177.84 Tm (para) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 152.80 121.42 Tm (públicos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 422.42 177.84 Tm (la) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 212.06 121.42 Tm (aplicables) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 432.77 177.84 Tm (conversación) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 281.10 121.42 Tm (\(para) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 493.23 177.84 Tm (de) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 317.86 121.42 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 82.00 163.92 Tm (residuos.) Tj ET
+0.75 G 0.5 w 56.00 147.41 m 539.28 147.41 l S 0 G
 0 g
-BT /F2 13.50 Tf 1 0 0 1 332.87 121.42 Tm (pitch\)) Tj ET
-0.75 G 0.5 w 56.00 111.03 m 539.28 111.03 l S 0 G
+BT /F2 13.50 Tf 1 0 0 1 56.00 107.51 Tm (10.) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 91.33 Tm (Detalle) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 78.52 107.51 Tm (Programas) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 89.22 91.33 Tm (y) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 152.80 107.51 Tm (públicos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 96.85 91.33 Tm (fuentes) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 212.06 107.51 Tm (aplicables) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 131.71 91.33 Tm (en) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 281.10 107.51 Tm (\(para) Tj ET
 0 g
-BT /F4 9.02 Tf 1 0 0 1 145.34 91.33 Tm (../03_SUBSIDIOS_FINANCIAMIENTO.md) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 317.86 107.51 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 326.58 91.33 Tm (§0-bis.) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 332.87 107.51 Tm (pitch\)) Tj ET
+0.75 G 0.5 w 56.00 97.11 m 539.28 97.11 l S 0 G
 0 g
-BT /F1 9.80 Tf 1 0 0 1 358.71 91.33 Tm (Resumen) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 77.41 Tm (Detalle) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 403.37 91.33 Tm (para) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 89.22 77.41 Tm (y) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 425.71 91.33 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 96.85 77.41 Tm (fuentes) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 436.05 91.33 Tm (vendedor:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 131.71 77.41 Tm (en) Tj ET
 0 g
-BT /F5 7.60 Tf 1 0 0 1 60.00 67.71 Tm (Programa              | Qué financia                     | Encaje con la bodega                    ) Tj ET
+BT /F4 9.02 Tf 1 0 0 1 145.34 77.41 Tm (../03_SUBSIDIOS_FINANCIAMIENTO.md) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 56.92 Tm (----------------------+----------------------------------+-----------------------------------------) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 326.58 77.41 Tm (§0-bis.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 358.71 77.41 Tm (Resumen) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 403.37 77.41 Tm (para) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 425.71 77.41 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 436.05 77.41 Tm (vendedor.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 482.36 77.41 Tm (Siglas:) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 514.49 77.41 Tm (EE) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 530.29 77.41 Tm (=) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 56.00 63.50 Tm (eficiencia) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 99.57 63.50 Tm (energética;) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 150.78 63.50 Tm (ERNC) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 181.26 63.50 Tm (=) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 189.71 63.50 Tm (energías) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 230.02 63.50 Tm (renovables) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 280.67 63.50 Tm (\(solar,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 310.62 63.50 Tm (eólica,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 341.67 63.50 Tm (etc.\);) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 366.18 63.50 Tm (FV) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 381.43 63.50 Tm (=) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 389.88 63.50 Tm (fotovoltaica) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 442.17 63.50 Tm (\(paneles) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 482.48 63.50 Tm (solares\);) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 522.77 63.50 Tm (I+D) Tj ET
 0.8 G 0.4 w 56.00 42.00 m 539.28 42.00 l S 0 G
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 4 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 4 de 7) Tj ET
 
 endstream
 endobj
@@ -2936,745 +3006,841 @@ endobj
 << /Type /Page /Parent 6 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R /F5 5 0 R >> >> /Contents 13 0 R >>
 endobj
 15 0 obj
-<< /Length 23076 >>
+<< /Length 25946 >>
 stream
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 778.29 Tm (CNR – Ley de Riego    | Hasta 90% de riego/drenaje,      | Viña con riego -> financia la solar;    ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 776.09 Tm (=) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 767.50 Tm (18.450                | permite ERNC \(bombeo solar, FV\)  | concursable, ventanas anuales           ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 64.45 776.09 Tm (investigación) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 756.71 Tm (FIA – Innovación de   | Innovación agroalimentaria       | Financia el piloto de telemetría +      ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 123.82 776.09 Tm (y) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 745.91 Tm (Interés Privado       | \(hasta $50M/80% en validación\)   | optimización de frío                    ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 131.44 776.09 Tm (desarrollo.) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 735.12 Tm (CORFO \(PDT, PROFO,    | Transferencia tecnológica,       | Llevar telemetría a un valle de viñas   ) Tj ET
+BT /F5 7.60 Tf 1 0 0 1 60.00 752.47 Tm (Programa            | Qué financia                       | Encaje con el cliente                   ) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 724.33 Tm (Crece, Ley I+D 35%\)   | fomento, crédito tributario I+D  | \(grupo\); I+D si hay producto propio     ) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 741.68 Tm (--------------------+------------------------------------+-----------------------------------------) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 713.54 Tm (Ponle Energía a tu    | EE + ERNC \(50–80%\)               | [!] Sin convocatoria vigente desde 2022 ) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 730.89 Tm (CNR – Ley de Riego  | Hasta 90% de obras de              | Aplica al campo con riego, NO al frío de) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 702.75 Tm (Pyme                  |                                  | — no comprometer                        ) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 720.10 Tm (18.450              | riego/drenaje; permite incluir     | la bodega. Solo si el mismo dueño tiene ) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 56.00 678.85 Tm (Regla) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 709.31 Tm (                    | energía solar para el riego        | riego propio. Concursable, ventanas     ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 82.69 678.85 Tm (:) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 698.51 Tm (                    | \(bombeo solar / paneles\)           | anuales                                 ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 88.13 678.85 Tm (son) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 687.72 Tm (FIA – Innovación de | Innovación agroalimentaria \(hasta  | Financia el piloto de telemetría +      ) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 106.66 678.85 Tm (aceleradores) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 676.93 Tm (Interés Privado     | $50M / 80% en validación\)          | optimización de frío                    ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 167.12 678.85 Tm (,) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 666.14 Tm (CORFO \(PDT, PROFO,  | Transferencia tecnológica,         | Llevar telemetría a un valle de viñas   ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 172.57 678.85 Tm (no) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 655.35 Tm (Crece, Ley I+D con  | fomento, crédito por I+D           | \(grupo\); I+D si hay producto propio     ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 186.19 678.85 Tm (la) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 644.55 Tm (crédito tributario  |                                    |                                         ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 196.54 678.85 Tm (base) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 633.76 Tm (35%\)                |                                    |                                         ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 220.51 678.85 Tm (de) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 622.97 Tm (Ponle Energía a tu  | EE + ERNC \(50–80%\)                 | [!] Sin convocatoria vigente desde 2022 ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 234.13 678.85 Tm (la) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 612.18 Tm (Pyme                |                                    | — no comprometer                        ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 244.48 678.85 Tm (venta.) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 56.00 588.29 Tm (Aclaración) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 273.90 678.85 Tm (El) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 108.83 588.29 Tm (importante) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 285.34 678.85 Tm (diagnóstico) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 162.19 588.29 Tm (\(viña) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 337.63 678.85 Tm (+) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 187.79 588.29 Tm (vs) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 346.08 678.85 Tm (factor) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 201.41 588.29 Tm (bodega\)) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 373.31 678.85 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 239.52 588.29 Tm (:) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 386.94 678.85 Tm (potencia) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 244.97 588.29 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 426.70 678.85 Tm (cierra) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 255.32 588.29 Tm (dolor) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 453.93 678.85 Tm (con) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 279.83 588.29 Tm (que) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 472.45 678.85 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 298.90 588.29 Tm (atacamos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 482.80 678.85 Tm (economía) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 344.11 588.29 Tm (es) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 664.94 Tm (del) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 357.18 588.29 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 71.80 664.94 Tm (cliente;) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 367.53 588.29 Tm (frío) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 105.57 664.94 Tm (el) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 386.04 588.29 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 115.92 664.94 Tm (subsidio) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 400.21 588.29 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 154.59 664.94 Tm (agranda) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 411.10 588.29 Tm (bodega) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 193.27 664.94 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 448.68 588.29 Tm (\(eléctrico\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 203.62 664.94 Tm (proyecto) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 497.14 588.29 Tm (Para) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 243.92 664.94 Tm (\(solar,) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 520.56 588.29 Tm (eso) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 273.87 664.94 Tm (riego\)) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 56.00 574.37 Tm (no) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 301.65 664.94 Tm (y) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 70.70 574.37 Tm (aplica) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 309.27 664.94 Tm (es) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 101.21 574.37 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 322.34 664.94 Tm (un) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 112.11 574.37 Tm (Ley) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 335.97 664.94 Tm (gancho) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 131.71 574.37 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 370.83 664.94 Tm (\("te) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 145.88 574.37 Tm (Riego) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 388.47 664.94 Tm (gestiono) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 175.82 574.37 Tm (\(que) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 428.24 664.94 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 198.16 574.37 Tm (es) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 438.59 664.94 Tm (postulación"\).) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 211.23 574.37 Tm (para) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 500.35 664.94 Tm (Postula) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 233.57 574.37 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 651.02 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 243.92 574.37 Tm (riego) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 66.35 651.02 Tm (bodega;) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 268.42 574.37 Tm (del) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 104.49 651.02 Tm (nosotros) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 284.22 574.37 Tm (campo\)) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 144.80 651.02 Tm (asesoramos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 319.62 574.37 Tm (ni) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 200.89 651.02 Tm (\(comisión) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 329.97 574.37 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 245.54 651.02 Tm (3–5%\).) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 340.32 574.37 Tm (solar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 629.21 Tm ([!]) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 364.28 574.37 Tm (de) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 66.90 629.21 Tm (Timing) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 377.90 574.37 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 99.02 629.21 Tm (:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 388.25 574.37 Tm (bodega) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 104.47 629.21 Tm (varias) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 423.67 574.37 Tm (califica) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 133.33 629.21 Tm (convocatorias) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 456.34 574.37 Tm (como) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 196.51 629.21 Tm (2026) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 483.03 574.37 Tm (riego.) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 221.03 629.21 Tm (ya) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 510.26 574.37 Tm (La) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 234.11 629.21 Tm (cerraron) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 560.45 Tm (solar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 273.32 629.21 Tm (\(jun–jul\).) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 79.96 560.45 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 313.61 629.21 Tm (Planificar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 93.58 560.45 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 356.63 629.21 Tm (para) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 103.93 560.45 Tm (bodega) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 378.97 629.21 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 139.35 560.45 Tm (va) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 389.32 629.21 Tm (ciclo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 152.42 560.45 Tm (por) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 414.38 629.21 Tm (2027) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 169.31 560.45 Tm (Net) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 438.90 629.21 Tm (y) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 187.82 560.45 Tm (Billing) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 446.52 629.21 Tm (verificar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 220.49 560.45 Tm (\() Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 483.54 629.21 Tm (bases) Tj ET
+BT /F4 9.02 Tf 1 0 0 1 223.76 560.45 Tm (../08_PANORAMA_INDUSTRIA.md) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 512.42 629.21 Tm (al) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 369.82 560.45 Tm (\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 615.29 Tm (abrirse) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 378.53 560.45 Tm (CNR) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 88.67 615.29 Tm (cada) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 402.48 560.45 Tm (solo) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 112.64 615.29 Tm (llamado.) Tj ET
-0.75 G 0.5 w 56.00 597.27 m 539.28 597.27 l S 0 G
+BT /F1 9.80 Tf 1 0 0 1 423.18 560.45 Tm (entra) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 56.00 557.37 Tm (11.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 448.24 560.45 Tm (si) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 78.52 557.37 Tm (Diálogo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 458.04 560.45 Tm (el) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 131.78 557.37 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 468.38 560.45 Tm (cliente) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 151.28 557.37 Tm (ventas) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 499.43 560.45 Tm (además) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 197.80 557.37 Tm (\(guion) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 546.54 Tm (tiene) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 242.80 557.37 Tm (para) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 79.97 546.54 Tm (riego) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 275.06 557.37 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 104.48 546.54 Tm (propio) Tj ET
 0 g
-BT /F2 13.50 Tf 1 0 0 1 290.08 557.37 Tm (vendedor\)) Tj ET
-0.75 G 0.5 w 56.00 546.98 m 539.28 546.98 l S 0 G
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 524.28 Tm (Guion) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 98.87 524.28 Tm (base,) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 125.57 524.28 Tm (adaptable.) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 174.06 524.28 Tm (Objetivo) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 212.73 524.28 Tm (de) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 226.35 524.28 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 236.70 524.28 Tm (primera) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 272.63 524.28 Tm (conversación:) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 335.82 524.28 Tm (vender) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 370.67 524.28 Tm (el) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 381.57 524.28 Tm (diagnóstico) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 439.29 524.28 Tm (pagado) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 474.14 524.28 Tm (,) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 479.59 524.28 Tm (no) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 493.21 524.28 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 510.36 Tm (solución.) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 111.40 510.36 Tm (No) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 126.64 510.36 Tm (prometer) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 168.58 510.36 Tm (ahorros) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 204.52 510.36 Tm (en) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 218.15 510.36 Tm (cifras) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 244.28 510.36 Tm (hasta) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 270.98 510.36 Tm (tener) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 296.04 510.36 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 306.39 510.36 Tm (factura) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 339.07 510.36 Tm (real.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 134.44 546.54 Tm (y) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 477.80 Tm (Apertura) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 142.06 546.54 Tm (quiere) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 107.12 477.80 Tm (\(gancho:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 172.02 546.54 Tm (solar) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 158.87 477.80 Tm (el) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 195.98 546.54 Tm (para) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 171.66 477.80 Tm (recargo) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 219.41 546.54 Tm (el) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 217.03 477.80 Tm (invisible) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 230.30 546.54 Tm (bombeo) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 266.25 477.80 Tm (+) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 271.14 546.54 Tm (de) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 276.17 477.80 Tm (el) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 285.30 546.54 Tm (riego) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 288.96 477.80 Tm (pico) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 309.26 546.54 Tm (.) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 315.80 477.80 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 314.71 546.54 Tm (No) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 332.41 477.80 Tm (vendimia\)) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 451.24 Tm ("Hola) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 96.35 451.24 Tm ([nombre],) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 140.47 451.24 Tm (hablo) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 167.17 451.24 Tm (de) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 180.79 451.24 Tm ([empresa].) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 229.81 451.24 Tm (Trabajamos) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 284.27 451.24 Tm (con) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 302.79 451.24 Tm (bodegas) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 343.11 451.24 Tm (ayudándolas) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 401.40 451.24 Tm (a) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 409.57 451.24 Tm (bajar) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 434.08 451.24 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 444.43 451.24 Tm (cuenta) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 476.57 451.24 Tm (de) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 490.19 451.24 Tm (luz,) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 508.17 451.24 Tm (sobre) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 437.33 Tm (todo) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 91.80 437.33 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 102.14 437.33 Tm (del) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 117.94 437.33 Tm (frío.) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 137.00 437.33 Tm (Una) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 157.70 437.33 Tm (pregunta) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 199.11 437.33 Tm (rápida:) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 231.79 437.33 Tm (¿sabía) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 265.02 437.33 Tm (que) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 285.17 437.33 Tm (sus) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 304.78 437.33 Tm (compresores) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 369.05 437.33 Tm (de) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 383.21 437.33 Tm (refrigeración) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 445.84 437.33 Tm (probablemente) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 518.81 437.33 Tm (le) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 70.00 423.41 Tm (están) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 98.32 423.41 Tm (sumando) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 144.61 423.41 Tm (un) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 159.31 423.41 Tm (recargo) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 197.98 423.41 Tm (por) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 216.49 423.41 Tm (factor) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 246.44 423.41 Tm (de) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 260.60 423.41 Tm (potencia) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 303.62 423.41 Tm (que) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 323.77 423.41 Tm (ni) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 335.21 423.41 Tm (siquiera) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 375.52 423.41 Tm (aparece) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 415.28 423.41 Tm (como) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 444.14 423.41 Tm (línea) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 469.20 423.41 Tm (separada) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 514.96 423.41 Tm (en) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 529.12 423.41 Tm (la) Tj ET
-0.25 g
-BT /F2 9.80 Tf 1 0 0 1 70.00 409.49 Tm (factura?) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 111.39 409.49 Tm (A) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 120.65 409.49 Tm (la) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 131.00 409.49 Tm (mayoría) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 168.57 409.49 Tm (de) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 182.19 409.49 Tm (las) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 197.44 409.49 Tm (bodegas) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 237.76 409.49 Tm (les) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 253.01 409.49 Tm (pasa) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 276.98 409.49 Tm (y) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 284.60 409.49 Tm (no) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 298.22 409.49 Tm (lo) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 308.57 409.49 Tm (ven.) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 329.82 409.49 Tm (¿Le) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 348.89 409.49 Tm (hace) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 372.86 409.49 Tm (sentido) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 407.18 409.49 Tm (que) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 426.25 409.49 Tm (conversemos) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 487.24 409.49 Tm (5) Tj ET
-0.25 g
-BT /F3 9.80 Tf 1 0 0 1 495.42 409.49 Tm (minutos?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 329.96 546.54 Tm (ofrecer) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 363.18 546.54 Tm (Ley) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 386.68 Tm (Gancho) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 381.70 546.54 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 93.04 386.68 Tm (alternativo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 395.33 546.54 Tm (Riego) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 140.98 386.68 Tm (\(estacional\):) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 423.65 546.54 Tm (para) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 197.07 386.68 Tm ("¿Cómo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 445.98 546.54 Tm (condensadores/frío.) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 234.86 386.68 Tm (se) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 56.00 524.72 Tm (Regla) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 247.93 386.68 Tm (le) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 82.69 524.72 Tm (:) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 258.28 386.68 Tm (dispara) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 88.13 524.72 Tm (los) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 293.14 386.68 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 103.38 524.72 Tm (subsidios) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 303.49 386.68 Tm (cuenta) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 146.95 524.72 Tm (son) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 335.63 386.68 Tm (en) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 165.48 524.72 Tm (aceleradores) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 349.26 386.68 Tm (vendimia) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 225.94 524.72 Tm (,) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 391.19 386.68 Tm (cuando) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 231.39 524.72 Tm (no) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 426.06 386.68 Tm (todo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 245.01 524.72 Tm (la) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 447.85 386.68 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 255.36 524.72 Tm (base) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 458.20 386.68 Tm (frío) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 279.33 524.72 Tm (de) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 474.54 386.68 Tm (trabaja) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 292.95 524.72 Tm (la) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 507.22 386.68 Tm (al) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 303.30 524.72 Tm (venta.) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 56.00 372.76 Tm (máximo?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 332.72 524.72 Tm (El) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 341.20 Tm (Descubrimiento) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 344.16 524.72 Tm (diagnóstico) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 146.10 341.20 Tm (\(calificar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 396.45 524.72 Tm (+) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 196.60 341.20 Tm (—) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 404.90 524.72 Tm (corrección) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 206.19 341.20 Tm (4) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 452.82 524.72 Tm (de) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 215.78 341.20 Tm (preguntas\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 466.44 524.72 Tm (factor) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 317.64 Tm (1.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 493.68 524.72 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 81.62 317.64 Tm ("¿Vinifican) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 510.81 Tm (potencia) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 130.31 317.64 Tm (acá) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 95.77 510.81 Tm (cierra) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 148.83 317.64 Tm (o) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 122.99 510.81 Tm (con) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 157.00 317.64 Tm (solo) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 141.51 510.81 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 177.70 317.64 Tm (cultivan?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 151.86 510.81 Tm (economía) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 222.58 317.64 Tm (->) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 197.07 510.81 Tm (propia) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 234.29 317.64 Tm (\(nos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 227.03 510.81 Tm (del) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 256.07 317.64 Tm (interesa) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 242.83 510.81 Tm (cliente;) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 293.65 317.64 Tm (quien) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 276.60 510.81 Tm (el) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 320.35 317.64 Tm (vinifica:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 286.95 510.81 Tm (subsidio) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 355.75 317.64 Tm (tiene) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 325.62 510.81 Tm (agranda) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 379.72 317.64 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 364.30 510.81 Tm (el) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 390.07 317.64 Tm (frío\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 374.65 510.81 Tm (proyecto) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 302.22 Tm (2.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 414.95 510.81 Tm (\(solar,) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 81.62 302.22 Tm ("¿Cuánto) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 444.90 510.81 Tm (riego\)) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 124.87 302.22 Tm (les) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 472.68 510.81 Tm (y) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 140.12 302.22 Tm (llega) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 480.30 510.81 Tm (es) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 163.54 302.22 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 493.37 510.81 Tm (un) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 173.89 302.22 Tm (cuenta) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 507.00 510.81 Tm (gancho) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 206.03 302.22 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 496.89 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 219.66 302.22 Tm (luz) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 69.62 496.89 Tm (conversación) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 234.90 302.22 Tm (en) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 130.08 496.89 Tm (\("le) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 248.53 302.22 Tm (un) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 147.17 496.89 Tm (gestiono) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 262.15 302.22 Tm (mes) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 186.94 496.89 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 283.38 302.22 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 197.29 496.89 Tm (postulación"\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 297.01 302.22 Tm (vendimia,) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 259.05 496.89 Tm (La) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 341.67 302.22 Tm (más) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 272.67 496.89 Tm (bodega) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 362.90 302.22 Tm (o) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 308.09 496.89 Tm (postula) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 371.07 302.22 Tm (menos?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 342.41 496.89 Tm (como) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 412.14 302.22 Tm (->) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 369.09 496.89 Tm (titular;) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 423.85 302.22 Tm (\(tamaño\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 398.50 496.89 Tm (nosotros) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 286.81 Tm (3.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 438.81 496.89 Tm (gestionamos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 81.62 286.81 Tm ("¿Saben) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 497.09 496.89 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 121.61 286.81 Tm (qué) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 482.97 Tm (postulación) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 140.68 286.81 Tm (factor) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 108.29 482.97 Tm (y) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 167.91 286.81 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 115.92 482.97 Tm (cobramos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 181.53 286.81 Tm (potencia) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 161.66 482.97 Tm (una) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 221.30 286.81 Tm (les) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 180.73 482.97 Tm (comisión) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 236.55 286.81 Tm (marca) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 222.12 482.97 Tm (de) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 266.50 286.81 Tm (la) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 235.74 482.97 Tm (3–5%) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 276.85 286.81 Tm (factura?) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 263.52 482.97 Tm (sobre) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 314.98 286.81 Tm (¿0.9-algo?") Tj ET
+BT /F2 9.80 Tf 1 0 0 1 292.93 482.97 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 367.49 286.81 Tm (->) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 303.83 482.97 Tm (monto) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 379.20 286.81 Tm (\(dolor\)) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 336.50 482.97 Tm (aprobado) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 271.39 Tm (4.) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 383.87 482.97 Tm (del) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 81.62 271.39 Tm ("¿Quién) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 400.75 482.97 Tm (subsidio) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 119.42 271.39 Tm (les) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 443.78 482.97 Tm (\(ver) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 134.67 271.39 Tm (ve) Tj ET
+BT /F4 9.02 Tf 1 0 0 1 56.00 469.06 Tm (../09_PRICING_CANONICO.md) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 147.74 271.39 Tm (hoy) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 191.24 469.06 Tm (\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 166.26 271.39 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 447.24 Tm ([!]) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 176.61 271.39 Tm (tema) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 66.90 447.24 Tm (Timing) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 201.12 271.39 Tm (eléctrico?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 99.02 447.24 Tm (:) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 249.26 271.39 Tm (->) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 104.47 447.24 Tm (varias) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 260.97 271.39 Tm (\(canal) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 133.33 447.24 Tm (convocatorias) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 290.38 271.39 Tm (/) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 196.51 447.24 Tm (2026) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 295.83 271.39 Tm (competencia\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 221.03 447.24 Tm (ya) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 251.08 Tm (Si) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 234.11 447.24 Tm (cerraron) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 67.44 251.08 Tm (vinifica) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 273.32 447.24 Tm (\(jun–jul\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 100.11 251.08 Tm (+) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 313.61 447.24 Tm (Planificar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 108.56 251.08 Tm (factura) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 356.63 447.24 Tm (para) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 141.24 251.08 Tm (relevante) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 378.97 447.24 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 184.27 251.08 Tm (+) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 389.32 447.24 Tm (ciclo) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 192.72 251.08 Tm (factor) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 414.38 447.24 Tm (2027) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 219.95 251.08 Tm (bajo/desconocido) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 438.90 447.24 Tm (y) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 298.94 251.08 Tm (->) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 446.52 447.24 Tm (verificar) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 310.65 251.08 Tm (es) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 483.54 447.24 Tm (bases) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 324.28 251.08 Tm (candidato) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 512.42 447.24 Tm (al) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 370.56 251.08 Tm (.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 56.00 433.33 Tm (abrirse) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 219.51 Tm (Propuesta) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 88.67 433.33 Tm (cada) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 115.43 219.51 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 112.64 433.33 Tm (llamado.) Tj ET
+0.75 G 0.5 w 56.00 415.31 m 539.28 415.31 l S 0 G
 0 g
-BT /F2 11.50 Tf 1 0 0 1 132.05 219.51 Tm (valor) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 56.00 375.41 Tm (11.) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 162.73 219.51 Tm (\(el) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 78.52 375.41 Tm (Diálogo) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 179.35 219.51 Tm (diagnóstico\)) Tj ET
+BT /F2 13.50 Tf 1 0 0 1 131.78 375.41 Tm (de) Tj ET
+0 g
+BT /F2 13.50 Tf 1 0 0 1 151.28 375.41 Tm (ventas) Tj ET
+0 g
+BT /F2 13.50 Tf 1 0 0 1 197.80 375.41 Tm (\(guion) Tj ET
+0 g
+BT /F2 13.50 Tf 1 0 0 1 242.80 375.41 Tm (para) Tj ET
+0 g
+BT /F2 13.50 Tf 1 0 0 1 275.06 375.41 Tm (el) Tj ET
+0 g
+BT /F2 13.50 Tf 1 0 0 1 290.08 375.41 Tm (vendedor\)) Tj ET
+0.75 G 0.5 w 56.00 365.01 m 539.28 365.01 l S 0 G
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 342.31 Tm (Guion) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 98.87 342.31 Tm (base,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 125.57 342.31 Tm (adaptable.) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 174.06 342.31 Tm (Registro:) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 215.99 342.31 Tm (usted) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 244.85 342.31 Tm (\(formal,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 280.79 342.31 Tm (como) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 307.47 342.31 Tm (corresponde) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 364.67 342.31 Tm (a) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 372.84 342.31 Tm (un) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 386.46 342.31 Tm (primer) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 416.95 342.31 Tm (contacto) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 456.72 342.31 Tm (con) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 475.24 342.31 Tm (un) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 488.86 342.31 Tm (dueño) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 518.83 342.31 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 328.40 Tm (bodega\).) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 111.41 328.40 Tm (Objetivo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 192.96 Tm ("Le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 150.08 328.40 Tm (de) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 87.10 192.96 Tm (propongo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 163.70 328.40 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 131.23 192.96 Tm (algo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 174.05 328.40 Tm (primera) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 152.48 192.96 Tm (concreto:) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 209.98 328.40 Tm (conversación:) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 195.51 192.96 Tm (instalamos) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 273.16 328.40 Tm (vender) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 245.07 192.96 Tm (un) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 308.02 328.40 Tm (el) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 258.69 192.96 Tm (medidor) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 318.92 328.40 Tm (diagnóstico) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 296.81 192.96 Tm (por) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 376.64 328.40 Tm (pagado) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 313.70 192.96 Tm (30) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 411.49 328.40 Tm (,) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 327.32 192.96 Tm (días) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 416.94 328.40 Tm (no) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 348.02 192.96 Tm (en) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 430.56 328.40 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 361.64 192.96 Tm (su) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 440.91 328.40 Tm (solución.) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 374.71 192.96 Tm (tablero) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 482.31 328.40 Tm (Regla) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 407.39 192.96 Tm (—) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 511.72 328.40 Tm (de) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 412.84 192.96 Tm (sin) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 70.00 314.48 Tm (oro) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 429.73 192.96 Tm (cortar) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 85.79 314.48 Tm (:) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 460.23 192.96 Tm (nada,) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 91.24 314.48 Tm (no) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 488.55 192.96 Tm (sin) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 104.86 314.48 Tm (prometer) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 505.43 192.96 Tm (obra) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 146.79 314.48 Tm (cifras) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 526.67 192.96 Tm (,) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 172.93 314.48 Tm (de) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 179.04 Tm (lo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 186.55 314.48 Tm (ahorro) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 80.35 179.04 Tm (pone) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 217.60 314.48 Tm (hasta) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 104.87 179.04 Tm (un) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 244.29 314.48 Tm (tener) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 118.49 179.04 Tm (eléctrico) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 269.35 314.48 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 157.70 179.04 Tm (autorizado—) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 279.70 314.48 Tm (factura) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 211.63 179.04 Tm (y) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 312.38 314.48 Tm (real) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 219.25 179.04 Tm (le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 331.44 314.48 Tm (medida) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 229.60 179.04 Tm (entregamos) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 366.30 314.48 Tm (\(ver) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 284.07 179.04 Tm (un) Tj ET
+BT /F4 9.02 Tf 1 0 0 1 385.90 314.48 Tm (../10_ANALISIS_CRITICO.md) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 297.69 179.04 Tm (informe) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 521.14 314.48 Tm (\).) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 333.09 179.04 Tm (que) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 70.00 300.57 Tm (Traducir) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 352.16 179.04 Tm (le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 108.66 300.57 Tm (todo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 362.51 179.04 Tm (dice) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 130.46 300.57 Tm (tecnicismo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 383.21 179.04 Tm (exactamente) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 179.47 300.57 Tm (a) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 442.04 179.04 Tm (en) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 187.64 300.57 Tm (lenguaje) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 456.20 179.04 Tm (qué) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 227.41 300.57 Tm (simple;) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 476.35 179.04 Tm (se) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 261.17 300.57 Tm (el) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 489.97 179.04 Tm (va) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 271.52 300.57 Tm (término) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 503.59 179.04 Tm (la) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 306.92 300.57 Tm (técnico) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 70.00 165.12 Tm (energía,) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 340.69 300.57 Tm (se) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 110.31 165.12 Tm (cuánto) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 353.76 300.57 Tm (introduce) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 145.16 165.12 Tm (le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 396.79 300.57 Tm (solo) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 156.05 165.12 Tm (cuesta) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 417.49 300.57 Tm (después,) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 189.82 165.12 Tm (el) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 459.98 300.57 Tm (con) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 200.72 165.12 Tm (recargo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 478.50 300.57 Tm (interés) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 239.39 165.12 Tm (del) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 510.64 300.57 Tm (ya) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 256.28 165.12 Tm (frío,) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 70.00 286.65 Tm (ganado.) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 56.00 254.08 Tm (Apertura) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 107.12 254.08 Tm (\(gancho:) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 158.87 254.08 Tm (la) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 171.66 254.08 Tm (multa) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 205.52 254.08 Tm (oculta) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 242.59 254.08 Tm (del) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 262.40 254.08 Tm (frío) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 284.13 254.08 Tm (+) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 294.04 254.08 Tm (el) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 306.83 254.08 Tm (pico) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 333.67 254.08 Tm (de) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 350.29 254.08 Tm (vendimia\)) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 227.53 Tm ("Hola) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 96.35 227.53 Tm ([nombre],) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 140.47 227.53 Tm (hablo) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 167.17 227.53 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 180.79 227.53 Tm ([empresa].) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 229.81 227.53 Tm (Trabajamos) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 284.27 227.53 Tm (con) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 302.79 227.53 Tm (bodegas) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 343.11 227.53 Tm (ayudándolas) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 401.40 227.53 Tm (a) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 409.57 227.53 Tm (bajar) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 434.08 227.53 Tm (la) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 444.43 227.53 Tm (cuenta) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 476.57 227.53 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 490.19 227.53 Tm (luz,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 508.17 227.53 Tm (sobre) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 213.61 Tm (todo) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 277.52 165.12 Tm (y) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 91.80 213.61 Tm (la) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 285.69 165.12 Tm (cuánto) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 102.14 213.61 Tm (del) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 320.54 165.12 Tm (podría) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 117.94 213.61 Tm (frío.) Tj ET
 0.25 g
-BT /F2 9.80 Tf 1 0 0 1 353.21 165.12 Tm (recuperar) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 137.00 213.61 Tm (Una) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 398.42 165.12 Tm (.) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 157.70 213.61 Tm (pregunta) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 403.87 165.12 Tm (Con) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 199.11 213.61 Tm (rápida:) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 424.56 165.12 Tm (números) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 231.79 213.61 Tm (¿sabía) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 465.41 165.12 Tm (de) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 265.02 213.61 Tm (que) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 479.03 165.12 Tm (su) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 285.17 213.61 Tm (sus) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 492.11 165.12 Tm (bodega,) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 304.78 213.61 Tm (equipos) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 151.21 Tm (no) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 345.08 213.61 Tm (de) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 83.62 151.21 Tm (de) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 359.24 213.61 Tm (frío) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 97.24 151.21 Tm (un) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 377.75 213.61 Tm (probablemente) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 110.87 151.21 Tm (folleto.) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 450.72 213.61 Tm (le) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 142.46 151.21 Tm (Eso) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 461.62 213.61 Tm (están) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 162.07 151.21 Tm (cuesta) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 489.94 213.61 Tm (cargando) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 193.67 151.21 Tm ([monto]) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 70.00 199.70 Tm (una) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 229.07 151.21 Tm (y) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 90.15 199.70 Tm (multa) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 236.70 151.21 Tm (si) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 119.01 199.70 Tm (en) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 246.50 151.21 Tm (avanza) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 133.17 199.70 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 280.82 151.21 Tm (con) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 144.07 199.70 Tm (cuenta) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 299.34 151.21 Tm (una) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 178.38 199.70 Tm (de) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 318.41 151.21 Tm (solución,) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 192.54 199.70 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 359.81 151.21 Tm (se) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 203.44 199.70 Tm (luz) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 372.88 151.21 Tm (lo) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 219.77 199.70 Tm (que) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 383.23 151.21 Tm (descuento) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 239.92 199.70 Tm (casi) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 431.17 151.21 Tm (del) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 261.72 199.70 Tm (nadie) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 446.97 151.21 Tm (proyecto.") Tj ET
+BT /F2 9.80 Tf 1 0 0 1 290.04 199.70 Tm (revisa) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 321.10 199.70 Tm (ni) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 332.53 199.70 Tm (sabe) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 357.59 199.70 Tm (cómo) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 386.45 199.70 Tm (eliminar?) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 432.75 199.70 Tm (A) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 442.01 199.70 Tm (la) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 452.36 199.70 Tm (mayoría) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 489.93 199.70 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 503.55 199.70 Tm (las) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 185.78 Tm (bodegas) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 110.32 185.78 Tm (les) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 125.57 185.78 Tm (pasa.) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 152.26 185.78 Tm (¿Le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 171.33 185.78 Tm (parece) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 204.02 185.78 Tm (si) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 213.82 185.78 Tm (le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 224.16 185.78 Tm (hago) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 248.68 185.78 Tm (una) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 267.75 185.78 Tm (pregunta) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 309.16 185.78 Tm (y) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 316.78 185.78 Tm (vemos) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 348.37 185.78 Tm (si) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 358.17 185.78 Tm (tiene) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 382.14 185.78 Tm (sentido) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 416.46 185.78 Tm (conversar?") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 162.97 Tm (?) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 78.90 162.97 Tm (Nota) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 102.32 162.97 Tm (para) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 124.65 162.97 Tm (el) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 135.00 162.97 Tm (vendedor) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 175.86 162.97 Tm (:) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 181.31 162.97 Tm (esa) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 199.83 162.97 Tm ("multa") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 233.47 162.97 Tm (es) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 246.55 162.97 Tm (el) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 256.90 162.97 Tm (recargo) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 295.57 162.97 Tm (por) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 314.08 162.97 Tm (factor) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 344.03 162.97 Tm (de) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 358.19 162.97 Tm (potencia) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 401.21 162.97 Tm (\(bajo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 425.72 162.97 Tm (cosphi\).) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 462.75 162.97 Tm (No) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 478.00 162.97 Tm (use) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 496.52 162.97 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 149.05 Tm (término) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 103.40 149.05 Tm (técnico) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 137.17 149.05 Tm (en) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 150.79 149.05 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 161.14 149.05 Tm (primera) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 197.08 149.05 Tm (frase;) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 224.31 149.05 Tm (introdúzcalo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 279.87 149.05 Tm (recién) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 309.28 149.05 Tm (si) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 319.08 149.05 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 329.42 149.05 Tm (dueño) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 359.39 149.05 Tm (pregunta) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 400.80 149.05 Tm ("¿qué) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 428.80 149.05 Tm (multa?".) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 56.00 128.73 Tm (Gancho) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 93.04 128.73 Tm (alternativo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 140.98 128.73 Tm (\(estacional\):) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 197.07 128.73 Tm ("¿Cómo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 234.86 128.73 Tm (se) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 247.93 128.73 Tm (le) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 258.28 128.73 Tm (dispara) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 293.14 128.73 Tm (la) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 303.49 128.73 Tm (cuenta) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 335.63 128.73 Tm (en) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 349.26 128.73 Tm (vendimia,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 393.91 128.73 Tm (cuando) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 428.78 128.73 Tm (todo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 450.58 128.73 Tm (el) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 460.93 128.73 Tm (frío) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 477.26 128.73 Tm (trabaja) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 509.95 128.73 Tm (al) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 56.00 114.82 Tm (máximo?") Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 56.00 83.25 Tm (Descubrimiento) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 146.10 83.25 Tm (\(calificar) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 196.60 83.25 Tm (—) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 206.19 83.25 Tm (4) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 215.78 83.25 Tm (preguntas\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 59.70 Tm (1.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 81.62 59.70 Tm ("¿Vinifican) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 130.31 59.70 Tm (acá) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 148.83 59.70 Tm (o) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 157.00 59.70 Tm (solo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 177.70 59.70 Tm (cultivan?") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 222.58 59.70 Tm (->) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 118.64 Tm (Manejo) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 234.29 59.70 Tm (\(nos) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 98.81 118.64 Tm (de) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 256.07 59.70 Tm (interesa) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 115.43 118.64 Tm (objeciones) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 293.65 59.70 Tm (quien) Tj ET
 0 g
-BT /F5 7.60 Tf 1 0 0 1 60.00 93.29 Tm (Objeción          | Respuesta                                                                       ) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 320.35 59.70 Tm (vinifica:) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 82.49 Tm (------------------+---------------------------------------------------------------------------------) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 355.75 59.70 Tm (tiene) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 71.70 Tm ("Ya tengo         | "Perfecto, trabajamos con su eléctrico —él instala. Nosotros ponemos el análisis) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 379.72 59.70 Tm (el) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 60.91 Tm (electricista"     | y el monitoreo que un eléctrico normalmente no hace: medir el factor de potencia) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 390.07 59.70 Tm (frío\)) Tj ET
 0.8 G 0.4 w 56.00 42.00 m 539.28 42.00 l S 0 G
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 5 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 5 de 7) Tj ET
 
 endstream
 endobj
@@ -3682,280 +3848,835 @@ endobj
 << /Type /Page /Parent 6 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R /F5 5 0 R >> >> /Contents 15 0 R >>
 endobj
 17 0 obj
-<< /Length 9089 >>
+<< /Length 25989 >>
 stream
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 778.29 Tm (                  | y cuantificar el ahorro."                                                       ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 776.09 Tm (2.) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 767.50 Tm ("No es buen       | "Justamente vendimia es el mejor momento para medir, porque es cuando el frío   ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 81.62 776.09 Tm ("¿La) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 756.71 Tm (momento, estamos  | trabaja al máximo y se ve el problema real. La instalación toma una hora y no   ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 104.17 776.09 Tm (cuenta) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 745.91 Tm (en vendimia"      | interrumpe nada."                                                               ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 136.32 776.09 Tm (de) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 735.12 Tm ("¿Y cómo sé que   | "No le prometo un número hasta medir. Por eso es un diagnóstico: si los datos no) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 149.94 776.09 Tm (luz) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 724.33 Tm (voy a ahorrar?"   | muestran ahorro que valga la pena, se lo digo y no le vendo nada. Solo avanzamos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 165.19 776.09 Tm (en) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 713.54 Tm (                  | si el payback es corto."                                                        ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 178.81 776.09 Tm (vendimia) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 702.75 Tm ("Está caro / hay  | "El diagnóstico se descuenta si avanza. Y sí: hay programas \(Ley de Riego, FIA\) ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 220.74 776.09 Tm (les) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 691.95 Tm (subsidio?"        | que pueden cofinanciar la inversión mayor; yo le gestiono la postulación."      ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 235.99 776.09 Tm (llega) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 681.16 Tm ("Mándame info por | "Se la mando, pero lo que de verdad sirve es la medición de su bodega. ¿Le      ) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 259.41 776.09 Tm (más) Tj ET
 0 g
-BT /F4 7.60 Tf 1 0 0 1 60.00 670.37 Tm (correo"           | parece si agendamos la visita del medidor para [fecha] y de paso ve el informe?") Tj ET
+BT /F1 9.80 Tf 1 0 0 1 280.65 776.09 Tm (cerca) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 636.73 Tm (Cierre) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 307.34 776.09 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 320.96 776.09 Tm (1,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 331.86 776.09 Tm (3) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 340.03 776.09 Tm (o) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 348.20 776.09 Tm (5) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 356.37 776.09 Tm (millones?") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 403.96 776.09 Tm (->) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 415.67 776.09 Tm (\(tamaño,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 457.07 776.09 Tm (en) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 470.69 776.09 Tm (rango,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 501.20 776.09 Tm (sin) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 516.45 776.09 Tm (pedir) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 68.00 762.17 Tm (la) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 78.35 762.17 Tm (cifra) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 99.59 762.17 Tm (exacta) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 131.18 762.17 Tm (a) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 139.35 762.17 Tm (un) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 152.98 762.17 Tm (desconocido\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 746.76 Tm (3.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 81.62 746.76 Tm ("¿Ha) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 105.80 746.76 Tm (notado) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 138.49 746.76 Tm (en) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 152.11 746.76 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 162.46 746.76 Tm (factura) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 195.15 746.76 Tm (algún) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 221.84 746.76 Tm (cargo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 249.07 746.76 Tm (que) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 268.15 746.76 Tm (no) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 281.77 746.76 Tm (sabe) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 305.74 746.76 Tm (bien) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 326.98 746.76 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 340.61 746.76 Tm (dónde) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 370.58 746.76 Tm (sale?) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 396.72 746.76 Tm (No) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 411.97 746.76 Tm (se) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 425.04 746.76 Tm (preocupe) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 468.62 746.76 Tm (si) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 478.42 746.76 Tm (no) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 492.05 746.76 Tm (lo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 502.39 746.76 Tm (tiene) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 732.84 Tm (claro) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 91.96 732.84 Tm (—eso) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 115.93 732.84 Tm (es) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 129.00 732.84 Tm (justo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 152.43 732.84 Tm (lo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 162.78 732.84 Tm (que) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 181.85 732.84 Tm (medimos.") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 230.52 732.84 Tm (->) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 242.23 732.84 Tm (\(dolor,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 272.73 732.84 Tm (sin) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 287.98 732.84 Tm (exigir) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 314.12 732.84 Tm (el) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 324.47 732.84 Tm (dato) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 346.26 732.84 Tm (técnico\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 717.43 Tm (4.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 81.62 717.43 Tm ("¿Quién) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 119.42 717.43 Tm (les) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 134.67 717.43 Tm (ve) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 147.74 717.43 Tm (hoy) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 166.26 717.43 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 176.61 717.43 Tm (tema) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 201.12 717.43 Tm (eléctrico?") Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 249.26 717.43 Tm (->) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 260.97 717.43 Tm (\(canal) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 290.38 717.43 Tm (/) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 295.83 717.43 Tm (competencia\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 56.00 697.11 Tm (Si) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 67.44 697.11 Tm (vinifica) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 100.11 697.11 Tm (+) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 108.56 697.11 Tm (factura) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 141.24 697.11 Tm (relevante) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 184.27 697.11 Tm (+) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 192.72 697.11 Tm (no) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 206.34 697.11 Tm (controla) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 243.92 697.11 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 254.27 697.11 Tm (tema) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 278.78 697.11 Tm (eléctrico) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 317.99 697.11 Tm (->) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 329.70 697.11 Tm (es) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 343.33 697.11 Tm (candidato) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 389.61 697.11 Tm (.) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 56.00 665.54 Tm (Propuesta) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 115.43 665.54 Tm (de) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 132.05 665.54 Tm (valor) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 162.73 665.54 Tm (\(el) Tj ET
+0 g
+BT /F2 11.50 Tf 1 0 0 1 179.35 665.54 Tm (diagnóstico\)) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 610.17 Tm ("Entonces) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 70.00 638.99 Tm ("Le) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 117.06 610.17 Tm (quedamos) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 87.10 638.99 Tm (propongo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 165.54 610.17 Tm (así:) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 131.23 638.99 Tm (algo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 183.51 610.17 Tm ([fecha]) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 152.48 638.99 Tm (concreto:) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 215.66 610.17 Tm (pasa) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 195.51 638.99 Tm (instalamos) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 239.63 610.17 Tm (el) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 245.07 638.99 Tm (un) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 249.98 610.17 Tm (técnico,) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 258.69 638.99 Tm (medidor) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 286.47 610.17 Tm (instala) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 296.81 638.99 Tm (en) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 317.52 610.17 Tm (el) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 310.43 638.99 Tm (su) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 327.87 610.17 Tm (medidor) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 323.51 638.99 Tm (tablero) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 365.99 610.17 Tm (—una) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 356.19 638.99 Tm (—) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 390.51 610.17 Tm (hora,) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 361.64 638.99 Tm (sin) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 415.57 610.17 Tm (sin) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 378.52 638.99 Tm (cortar) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 430.82 610.17 Tm (cortar—,) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 409.02 638.99 Tm (nada,) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 466.76 610.17 Tm (y) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 437.34 638.99 Tm (sin) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 474.39 610.17 Tm (en) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 454.23 638.99 Tm (obra) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 488.01 610.17 Tm ([X]) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 475.47 638.99 Tm (—) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 70.00 596.26 Tm (semanas) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 483.64 638.99 Tm (que) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 112.48 596.26 Tm (le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 502.71 638.99 Tm (queda) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 122.83 596.26 Tm (tengo) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 70.00 625.07 Tm (midiendo) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 150.08 596.26 Tm (el) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 116.29 625.07 Tm (30) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 160.42 596.26 Tm (informe) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 129.91 625.07 Tm (días) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 195.82 596.26 Tm (con) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 152.24 625.07 Tm (para) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 214.34 596.26 Tm (los) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 174.58 625.07 Tm (ver) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 229.59 596.26 Tm (números.) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 190.91 625.07 Tm (bien) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 273.16 596.26 Tm (¿Le) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 212.16 625.07 Tm (la) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 292.23 596.26 Tm (queda) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 222.51 625.07 Tm (vendimia.) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 322.20 596.26 Tm (bien) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 267.17 625.07 Tm (Con) Tj ET
 0.25 g
-BT /F3 9.80 Tf 1 0 0 1 343.45 596.26 Tm ([día]?") Tj ET
+BT /F3 9.80 Tf 1 0 0 1 287.86 625.07 Tm (eso) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 306.39 625.07 Tm (le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 316.73 625.07 Tm (entregamos) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 371.20 625.07 Tm (un) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 384.83 625.07 Tm (informe) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 420.22 625.07 Tm (que) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 439.29 625.07 Tm (le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 449.64 625.07 Tm (dice,) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 473.06 625.07 Tm (con) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 493.21 625.07 Tm (los) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 70.00 611.16 Tm (números) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 114.11 611.16 Tm (de) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 128.27 611.16 Tm (su) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 142.43 611.16 Tm (bodega) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 177.28 611.16 Tm (,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 182.73 611.16 Tm (en) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 196.35 611.16 Tm (qué) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 215.42 611.16 Tm (se) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 228.50 611.16 Tm (le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 238.84 611.16 Tm (va) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 251.92 611.16 Tm (la) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 262.27 611.16 Tm (energía,) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 300.40 611.16 Tm (el) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 311.30 611.16 Tm (rango) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 341.24 611.16 Tm (real) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 361.40 611.16 Tm (de) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 375.56 611.16 Tm (lo) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 387.00 611.16 Tm (que) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 407.15 611.16 Tm (le) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 418.05 611.16 Tm (cuesta) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 451.82 611.16 Tm (ese) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 470.89 611.16 Tm (cargo) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 500.30 611.16 Tm (del) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 517.18 611.16 Tm (frío) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 532.97 611.16 Tm (,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 597.24 Tm (y) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 77.62 597.24 Tm (cuánto) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 109.77 597.24 Tm (podría) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 139.73 597.24 Tm (recuperar.) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 187.11 597.24 Tm (Eso) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 206.72 597.24 Tm (cuesta) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 238.32 597.24 Tm (entre) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 265.00 597.24 Tm ($300) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 289.52 597.24 Tm (y) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 297.69 597.24 Tm ($500) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 322.21 597.24 Tm (mil) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 339.10 597.24 Tm (\(según) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 371.78 597.24 Tm (el) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 382.13 597.24 Tm (tamaño) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 417.54 597.24 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 431.16 597.24 Tm (la) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 441.51 597.24 Tm (bodega\)) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 480.19 597.24 Tm (y,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 490.54 597.24 Tm (si) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 500.34 597.24 Tm (avanza) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 583.32 Tm (con) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 88.52 583.32 Tm (una) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 107.59 583.32 Tm (solución,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 148.99 583.32 Tm (se) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 162.06 583.32 Tm (lo) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 172.41 583.32 Tm (descuento) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 220.35 583.32 Tm (del) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 236.15 583.32 Tm (proyecto.") Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 56.00 563.69 Tm (Segunda) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 560.51 Tm (?) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 107.76 563.69 Tm (conversación) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 78.90 560.51 Tm (Nota) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 185.10 563.69 Tm (\(tras) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 102.32 560.51 Tm (para) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 213.22 563.69 Tm (el) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 124.65 560.51 Tm (el) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 226.00 563.69 Tm (informe) Tj ET
+BT /F3 9.80 Tf 1 0 0 1 135.00 560.51 Tm (vendedor) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 271.37 563.69 Tm (/) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 175.86 560.51 Tm (:) Tj ET
 0 g
-BT /F2 11.50 Tf 1 0 0 1 277.77 563.69 Tm (expansión\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 181.31 560.51 Tm (decimos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 540.14 Tm (?) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 220.52 560.51 Tm ("el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 78.90 540.14 Tm (Presentar) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 236.06 560.51 Tm (rango) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 124.11 540.14 Tm (el) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 266.01 560.51 Tm (real") Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 134.45 540.14 Tm (ahorro) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 288.09 560.51 Tm (,) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 165.50 540.14 Tm (con) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 293.54 560.51 Tm (no) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 185.65 540.14 Tm (sus) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 307.16 560.51 Tm ("exactamente") Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 205.26 540.14 Tm (datos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 372.95 560.51 Tm (—) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 234.12 540.14 Tm (->) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 381.12 560.51 Tm (la) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 245.83 540.14 Tm (proponer) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 391.47 560.51 Tm (base) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 287.77 540.14 Tm (condensadores) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 415.44 560.51 Tm (fina) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 357.50 540.14 Tm (\(payback) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 433.96 560.51 Tm (del) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 399.98 540.14 Tm (corto\).) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 449.76 560.51 Tm (cálculo) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 524.72 Tm (?) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 482.98 560.51 Tm (se) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 78.90 524.72 Tm (Mencionar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 496.05 560.51 Tm (confirma) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 127.37 524.72 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 546.59 Tm (con) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 137.72 524.72 Tm (frío) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 86.52 546.59 Tm (la) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 156.23 524.72 Tm (en) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 96.87 546.59 Tm (factura) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 170.39 524.72 Tm (punta) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 129.55 546.59 Tm (real) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 199.79 524.72 Tm (y) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 148.61 546.59 Tm (\(ver) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 207.41 524.72 Tm (la) Tj ET
+BT /F4 9.02 Tf 1 0 0 1 168.21 546.59 Tm (../10_ANALISIS_CRITICO.md) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 217.76 524.72 Tm (solar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 303.45 546.59 Tm (\).) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 243.91 524.72 Tm (con) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 312.17 546.59 Tm (El) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 264.06 524.72 Tm (Ley) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 323.60 546.59 Tm (monitoreo) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 283.67 524.72 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 369.90 546.59 Tm (del) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 297.83 524.72 Tm (Riego) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 385.70 546.59 Tm (ahorro) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 327.78 524.72 Tm (como) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 416.74 546.59 Tm (que) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 354.46 524.72 Tm (fase) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 435.81 546.59 Tm (ofrecemos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 375.71 524.72 Tm (siguiente.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 484.28 546.59 Tm (después) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 68.00 509.30 Tm (?) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 524.05 546.59 Tm (se) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 78.90 509.30 Tm (Dejar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 532.68 Tm (llama) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 105.03 509.30 Tm (sembrado) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 94.14 532.68 Tm (medición) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 151.33 509.30 Tm (el) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 136.07 532.68 Tm (y) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 161.68 509.30 Tm (orujo/borra) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 143.70 532.68 Tm (verificación) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 213.95 509.30 Tm (:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 195.43 532.68 Tm (\(M&V\).) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 219.40 509.30 Tm ("su) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 56.00 502.61 Tm (Manejo) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 235.95 509.30 Tm (orujo) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 98.81 502.61 Tm (de) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 260.46 509.30 Tm (hoy) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 115.43 502.61 Tm (objeciones) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 278.98 509.30 Tm (probablemente) Tj ET
+BT /F5 7.60 Tf 1 0 0 1 60.00 477.26 Tm (Objeción     | Respuesta                                                                            ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 347.07 509.30 Tm (lo) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 466.46 Tm (-------------+--------------------------------------------------------------------------------------) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 357.42 509.30 Tm (regala;) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 455.67 Tm ("Ya tengo    | "Perfecto, coordinamos con su eléctrico. La instalación del medidor la hace nuestro  ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 390.11 509.30 Tm (tiene) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 444.88 Tm (electricista | técnico autorizado \(es un equipo específico\), y lo que aportamos es el análisis y el ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 414.08 509.30 Tm (aceite) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 434.09 Tm ("            | monitoreo que un eléctrico normalmente no hace: medir cuánto le cuesta ese cargo y   ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 442.95 509.30 Tm (de) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 423.30 Tm (             | cuantificar el ahorro."                                                              ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 456.57 509.30 Tm (pepita,) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 412.50 Tm ("No es buen  | "Justamente vendimia es el mejor momento para medir, porque es cuando el frío trabaja) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 488.71 509.30 Tm (polifenoles) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 401.71 Tm (momento,     | al máximo y se ve el problema real. Instalar el medidor toma una hora y no interrumpe) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 68.00 495.39 Tm (y) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 390.92 Tm (estamos en   | nada."                                                                               ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 75.62 495.39 Tm (ácido) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 380.13 Tm (vendimia"    |                                                                                      ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 101.77 495.39 Tm (tartárico) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 369.34 Tm ("¿Y cómo sé  | "No le prometo un número hasta medir. Por eso es un diagnóstico: si los datos no     ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 139.89 495.39 Tm (recuperables) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 358.54 Tm (que voy a    | muestran un ahorro que valga la pena, se lo digo y no le vendo nada. Solo avanzamos  ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 199.26 495.39 Tm (—) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 347.75 Tm (ahorrar?"    | si la inversión se paga rápido con el ahorro."                                       ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 207.43 495.39 Tm (cuando) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 336.96 Tm ("¿Está caro? | "El diagnóstico se descuenta si avanza. Y para la inversión mayor hay programas del  ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 242.30 495.39 Tm (quiera) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 326.17 Tm (¿Hay         | agro \(FIA, y la Ley de Riego si tiene riego propio\) que pueden cofinanciar; yo le    ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 272.26 495.39 Tm (lo) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 315.38 Tm (subsidio?"   | gestiono la postulación."                                                            ) Tj ET
 0 g
-BT /F3 9.80 Tf 1 0 0 1 282.61 495.39 Tm (vemos") Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 304.58 Tm ("Mándeme     | "Se la mando, pero lo que de verdad sirve es la medición de su bodega. ¿Le parece si ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 317.67 495.39 Tm (\(§6\).) Tj ET
-0.75 G 0.5 w 56.00 478.87 m 539.28 478.87 l S 0 G
+BT /F4 7.60 Tf 1 0 0 1 60.00 293.79 Tm (info por     | agendamos la visita del medidor para [fecha] y de paso ve el informe?"               ) Tj ET
 0 g
-BT /F2 9.80 Tf 1 0 0 1 56.00 456.17 Tm (Estado) Tj ET
+BT /F4 7.60 Tf 1 0 0 1 60.00 283.00 Tm (correo"      |                                                                                      ) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 88.67 456.17 Tm (:) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 56.00 249.36 Tm (Cierre) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 222.80 Tm ("Entonces) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 117.06 222.80 Tm (quedamos) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 165.54 222.80 Tm (así:) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 183.51 222.80 Tm ([fecha]) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 215.66 222.80 Tm (pasa) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 239.63 222.80 Tm (nuestro) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 275.04 222.80 Tm (técnico) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 308.81 222.80 Tm (e) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 316.98 222.80 Tm (instala) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 350.75 222.80 Tm (el) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 361.65 222.80 Tm (medidor) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 403.03 222.80 Tm (en) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 417.19 222.80 Tm (una) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 437.34 222.80 Tm (hora,) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 464.03 222.80 Tm (sin) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 480.91 222.80 Tm (cortar) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 511.41 222.80 Tm (nada) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 534.28 222.80 Tm (;) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 70.00 208.89 Tm (queda) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 101.59 208.89 Tm (midiendo) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 147.87 208.89 Tm (30) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 161.49 208.89 Tm (días) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 183.83 208.89 Tm (—cubriendo) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 235.03 208.89 Tm (la) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 245.38 208.89 Tm (vendimia—) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 292.76 208.89 Tm (y) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 300.39 208.89 Tm (unas) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 325.99 208.89 Tm (2) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 334.16 208.89 Tm (semanas) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 378.83 208.89 Tm (después) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 421.31 208.89 Tm (de) Tj ET
+0.25 g
+BT /F2 9.80 Tf 1 0 0 1 435.47 208.89 Tm (retirarlo) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 475.23 208.89 Tm (le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 485.58 208.89 Tm (entrego) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 521.53 208.89 Tm (el) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 70.00 194.97 Tm (informe) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 105.40 194.97 Tm (con) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 123.92 194.97 Tm (los) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 139.17 194.97 Tm (números.) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 182.74 194.97 Tm (En) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 197.45 194.97 Tm (total,) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 221.42 194.97 Tm (alrededor) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 265.54 194.97 Tm (de) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 279.16 194.97 Tm (6) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 287.33 194.97 Tm (semanas.) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 332.54 194.97 Tm (¿Le) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 351.61 194.97 Tm (queda) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 381.58 194.97 Tm (bien) Tj ET
+0.25 g
+BT /F3 9.80 Tf 1 0 0 1 402.83 194.97 Tm ([día]?") Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 94.12 456.17 Tm ([OK]) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 56.00 162.41 Tm (Segunda) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 116.46 456.17 Tm (Dossier) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 107.76 162.41 Tm (conversación) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 152.39 456.17 Tm (del) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 185.10 162.41 Tm (\(tras) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 168.19 456.17 Tm (sector) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 213.22 162.41 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 197.60 456.17 Tm (vitivinícola) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 226.00 162.41 Tm (informe) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 244.97 456.17 Tm (listo) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 271.37 162.41 Tm (/) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 265.12 456.17 Tm (\(jul) Tj ET
+BT /F2 11.50 Tf 1 0 0 1 277.77 162.41 Tm (expansión\)) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 280.91 456.17 Tm (2026\),) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 138.85 Tm (?) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 311.42 456.17 Tm (con) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 78.90 138.85 Tm (Presentar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 329.94 456.17 Tm (programas) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 124.11 138.85 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 379.50 456.17 Tm (públicos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 134.45 138.85 Tm (ahorro) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 418.17 456.17 Tm (y) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 165.50 138.85 Tm (con) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 425.79 456.17 Tm (diálogo) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 185.65 138.85 Tm (sus) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 460.11 456.17 Tm (de) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 205.26 138.85 Tm (datos) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 473.73 456.17 Tm (ventas.) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 234.12 138.85 Tm (->) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 56.00 442.26 Tm (Pendiente:) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 245.83 138.85 Tm (proponer) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 105.58 442.26 Tm (poblar) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 287.77 138.85 Tm (condensadores) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 135.54 442.26 Tm (la) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 357.50 138.85 Tm (\(se) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 145.89 442.26 Tm (lista) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 373.84 138.85 Tm (pagan) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 166.03 442.26 Tm (de) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 403.81 138.85 Tm (rápido\).) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 179.66 442.26 Tm (candidatos) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 68.00 123.43 Tm (?) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 229.77 442.26 Tm (\(§8\)) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 78.90 123.43 Tm (Explicar) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 249.92 442.26 Tm (y) Tj ET
+BT /F1 9.80 Tf 1 0 0 1 116.47 123.43 Tm (que) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 257.55 442.26 Tm (ejecutar) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 135.54 123.43 Tm (el) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 295.13 442.26 Tm (los) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 146.44 123.43 Tm (frío) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 310.38 442.26 Tm (3) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 164.95 123.43 Tm (trabajando) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 318.55 442.26 Tm (primeros) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 217.77 123.43 Tm (en) Tj ET
 0 g
-BT /F1 9.80 Tf 1 0 0 1 359.39 442.26 Tm (diagnósticos.) Tj ET
+BT /F2 9.80 Tf 1 0 0 1 231.93 123.43 Tm (horario) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 268.42 123.43 Tm (de) Tj ET
+0 g
+BT /F2 9.80 Tf 1 0 0 1 282.58 123.43 Tm (punta) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 311.98 123.43 Tm (\(18–22h,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 353.39 123.43 Tm (abr–sep\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 394.78 123.43 Tm (encarece) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 437.81 123.43 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 448.16 123.43 Tm (cuenta) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 480.31 123.43 Tm (y) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 487.93 123.43 Tm (que) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 507.00 123.43 Tm (ese) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 109.52 Tm (consumo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 110.48 109.52 Tm (se) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 123.56 109.52 Tm (puede) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 153.52 109.52 Tm (desplazar;) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 201.46 109.52 Tm (proponerlo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 251.02 109.52 Tm (como) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 277.71 109.52 Tm (fase) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 298.96 109.52 Tm (siguiente.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 343.63 109.52 Tm (La) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 357.25 109.52 Tm (solar,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 383.93 109.52 Tm (si) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 393.73 109.52 Tm (tiene) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 417.70 109.52 Tm (riego,) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 444.94 109.52 Tm (puede) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 474.91 109.52 Tm (ir) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 483.07 109.52 Tm (cofinanciada) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 95.60 Tm (con) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 86.52 95.60 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 96.87 95.60 Tm (Ley) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 115.39 95.60 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 129.01 95.60 Tm (Riego) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 157.34 95.60 Tm (\(solo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 181.30 95.60 Tm (para) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 203.63 95.60 Tm (el) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 213.98 95.60 Tm (bombeo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 252.11 95.60 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 265.73 95.60 Tm (riego\);) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 296.23 95.60 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 306.58 95.60 Tm (solar) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 330.54 95.60 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 344.16 95.60 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 354.51 95.60 Tm (bodega) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 389.93 95.60 Tm (va) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 403.00 95.60 Tm (por) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 419.89 95.60 Tm (Net) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 437.86 95.60 Tm (Billing.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 68.00 80.19 Tm (?) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 78.90 80.19 Tm (Dejar) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 105.03 80.19 Tm (sembrados) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 156.23 80.19 Tm (los) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 171.48 80.19 Tm (residuos) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 211.24 80.19 Tm (\(§6\):) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 234.11 80.19 Tm ("su) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 250.66 80.19 Tm (orujo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 275.17 80.19 Tm (hoy) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 293.69 80.19 Tm (probablemente) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 361.78 80.19 Tm (lo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 372.13 80.19 Tm (regala,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 404.82 80.19 Tm (y) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 412.44 80.19 Tm (de) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 426.06 80.19 Tm (ahí) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 441.86 80.19 Tm (se) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 454.93 80.19 Tm (sacan) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 483.80 80.19 Tm (productos) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 68.00 66.27 Tm (con) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 86.52 66.27 Tm (valor) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 110.48 66.27 Tm (—aceite) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 144.80 66.27 Tm (y) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 152.43 66.27 Tm (antioxidantes—;) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 221.07 66.27 Tm (y) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 228.69 66.27 Tm (de) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 242.31 66.27 Tm (la) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 252.66 66.27 Tm (borra,) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 280.98 66.27 Tm (ácido) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 307.13 66.27 Tm (para) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 329.46 66.27 Tm (la) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 339.81 66.27 Tm (industria.) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 382.30 66.27 Tm (Cuando) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 419.34 66.27 Tm (quiera) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 449.30 66.27 Tm (se) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 462.37 66.27 Tm (lo) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 472.72 66.27 Tm (mostramos) Tj ET
 0.8 G 0.4 w 56.00 42.00 m 539.28 42.00 l S 0 G
 0.45 g
 BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
 0.45 g
-BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 6 de 6) Tj ET
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 6 de 7) Tj ET
 
 endstream
 endobj
@@ -3963,13 +4684,92 @@ endobj
 << /Type /Page /Parent 6 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R /F5 5 0 R >> >> /Contents 17 0 R >>
 endobj
 19 0 obj
-<< /Title (vitivinicola.md) /Producer (md_a_pdf.py) >>
+<< /Length 2102 >>
+stream
+0 g
+BT /F3 9.80 Tf 1 0 0 1 68.00 776.09 Tm (con) Tj ET
+0 g
+BT /F3 9.80 Tf 1 0 0 1 86.52 776.09 Tm (números.") Tj ET
+0.75 G 0.5 w 56.00 759.57 m 539.28 759.57 l S 0 G
+0 g
+BT /F2 9.80 Tf 1 0 0 1 56.00 736.87 Tm (Estado) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 88.67 736.87 Tm (:) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 94.12 736.87 Tm ([OK]) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 116.46 736.87 Tm (Dossier) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 152.39 736.87 Tm (del) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 168.19 736.87 Tm (sector) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 197.60 736.87 Tm (vitivinícola) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 244.97 736.87 Tm (listo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 265.12 736.87 Tm (\(jul) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 280.91 736.87 Tm (2026\),) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 311.42 736.87 Tm (con) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 329.94 736.87 Tm (programas) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 379.50 736.87 Tm (públicos) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 418.17 736.87 Tm (y) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 425.79 736.87 Tm (diálogo) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 460.11 736.87 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 473.73 736.87 Tm (ventas.) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 56.00 722.96 Tm (Pendiente:) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 105.58 722.96 Tm (poblar) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 135.54 722.96 Tm (la) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 145.89 722.96 Tm (lista) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 166.03 722.96 Tm (de) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 179.66 722.96 Tm (candidatos) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 229.77 722.96 Tm (\(§8\)) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 249.92 722.96 Tm (y) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 257.55 722.96 Tm (ejecutar) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 295.13 722.96 Tm (los) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 310.38 722.96 Tm (3) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 318.55 722.96 Tm (primeros) Tj ET
+0 g
+BT /F1 9.80 Tf 1 0 0 1 359.39 722.96 Tm (diagnósticos.) Tj ET
+0.8 G 0.4 w 56.00 42.00 m 539.28 42.00 l S 0 G
+0.45 g
+BT /F3 7.50 Tf 1 0 0 1 56.00 31.00 Tm (vitivinicola.md) Tj ET
+0.45 g
+BT /F3 7.50 Tf 1 0 0 1 501.75 31.00 Tm (pág. 7 de 7) Tj ET
+
+endstream
 endobj
 20 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R /F5 5 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Title (vitivinicola.md) /Producer (md_a_pdf.py) >>
+endobj
+22 0 obj
 << /Type /Catalog /Pages 6 0 R >>
 endobj
 xref
-0 21
+0 23
 0000000000 65535 f 
 0000000015 00000 n 
 0000000112 00000 n 
@@ -3977,22 +4777,24 @@ xref
 0000000319 00000 n 
 0000000414 00000 n 
 0000000514 00000 n 
-0000000606 00000 n 
-0000024146 00000 n 
-0000024318 00000 n 
-0000045279 00000 n 
-0000045452 00000 n 
-0000067839 00000 n 
-0000068013 00000 n 
-0000089878 00000 n 
-0000090052 00000 n 
-0000113182 00000 n 
-0000113356 00000 n 
-0000122498 00000 n 
-0000122672 00000 n 
-0000122743 00000 n 
+0000000613 00000 n 
+0000024153 00000 n 
+0000024325 00000 n 
+0000045286 00000 n 
+0000045459 00000 n 
+0000067846 00000 n 
+0000068020 00000 n 
+0000091717 00000 n 
+0000091891 00000 n 
+0000117891 00000 n 
+0000118065 00000 n 
+0000144108 00000 n 
+0000144282 00000 n 
+0000146437 00000 n 
+0000146611 00000 n 
+0000146682 00000 n 
 trailer
-<< /Size 21 /Root 20 0 R /Info 19 0 R >>
+<< /Size 23 /Root 22 0 R /Info 21 0 R >>
 startxref
-122793
+146732
 %%EOF
