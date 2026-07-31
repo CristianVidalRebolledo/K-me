@@ -68,14 +68,34 @@ conversación de mayor ticket, pero **no** es el gancho inicial.
 
 ### 2.3 Packing frutícola y frigoríficos ⭐
 
-- **Dónde**: O'Higgins y Maule concentran las cámaras de frío (O'Higgins ~26% de las
-  cámaras frutícolas RM/centro **[dato 2013, verificar vigencia]**). Muchos publican
-  contacto.
+- **Fuente actualizada**: **Catastro Frutícola CIREN–ODEPA 2024** (ciclo vigente; en 2024
+  se actualizaron Coquimbo, Atacama y O'Higgins, y Valparaíso/Metropolitana; Maule, Ñuble,
+  Biobío, Los Ríos y Los Lagos en actualización dic-2024). **O'Higgins es la región con más
+  cámaras de frío del país** **[dato CIREN-ODEPA]**. El dato antiguo de 2013 (174 cámaras
+  en O'Higgins) queda superado por este ciclo.
+- **Ejemplo verificado — Región del Biobío 2024** (infraestructura de frío) **[dato CIREN-ODEPA 2024]**:
+
+| Infraestructura | Nº cámaras/empresas | Capacidad total |
+|---|---|---|
+| Cámaras de frío | 46 | 68.251 m³ |
+| Cámaras de prefrío | 30 | 9.051 m³ |
+| Cámaras de atmósfera controlada | 4 | 17.280 m³ |
+| Empresas de embalaje | 12 (75% predial) | 20,7 M kg/temporada |
+| Empresas agroindustria (procesan fruta) | 20 | 6.818 t/temporada |
+
+  → Y esta es una región **secundaria** en fruta; O'Higgins, Maule y Valparaíso concentran
+  bastante más. Los catastros por región publican estas tablas (Cuadros 10–18) con detalle.
 - **Dolor**: **refrigeración 24/7** = el mejor caso para factor de potencia (compresores
   = carga inductiva pura) + demanda punta + peak shaving con almacenamiento térmico
   (pre-enfriar cámaras). Es el sector con dolor más alineado con TODA nuestra oferta.
 - **Oferta**: diagnóstico → condensadores → gestión de demanda punta (thermal storage de
-  frío) → monitoreo. Ticket alto y payback corto.
+  frío) → monitoreo. Ticket alto y payback corto. Además, el **líneas de embalaje están
+  100% mecanizadas** (Biobío) → muchos motores.
+- **Contactabilidad**: los catastros identifican empresas por comuna; combinado con Google
+  Maps por rubro ("frigorífico", "packing", "cámaras de frío") da un padrón accionable.
+- **Fuentes**: Catastro Frutícola CIREN-ODEPA 2024 (https://www.odepa.gob.cl/estadisticas-del-sector/catastros-fruticolas
+  y https://www.ciren.cl/proyectos/catastros/catastro-fruticola/); datos abiertos:
+  https://datos.odepa.gob.cl/dataset/catastro-fruticola
 
 ### 2.4 Planteles y agroindustria animal (avícola, lechero, porcino, faenadoras)
 
@@ -144,7 +164,9 @@ lignocelulósicos requieren pretratamiento).
 
 - [ ] Nº de aserraderos pyme por región (pedir a INFOR/PYMEMAD; hay padrón gremial).
 - [ ] Costo energético medio de un aserradero pyme y % en secado vs. eléctrico.
-- [ ] Vigencia del dato de cámaras frigoríficas (el disponible es de 2013).
+- [x] Vigencia del dato de cámaras frigoríficas → **actualizado con Catastro CIREN-ODEPA
+      2024** (§2.3). Pendiente menor: extraer el nº de cámaras de O'Higgins/Maule 2024 de
+      sus PDF por región (el de Biobío ya está tabulado arriba).
 - [ ] ¿El diagnóstico térmico (caldera de biomasa) requiere competencia que aún no tenemos?
       Definir si es upsell propio o alianza con proveedor de calderas.
 
