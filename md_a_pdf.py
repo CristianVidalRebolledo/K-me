@@ -90,6 +90,18 @@ ANCHOS = {
 }
 ANCHO_MONO = 600  # Courier es de ancho fijo
 
+# Anchos AFM (Helvetica) de puntuación no-ASCII que sí se usa en los .md.
+# Sin esto, el guion largo se subestimaba (556 vs 1000 real) y las palabras
+# siguientes se corrían a la izquierda hasta tocarse.
+ANCHOS_EXTRA = {
+    "—": 1000,  # guion largo (em dash)
+    "–": 556,   # guion medio (en dash)
+    "…": 1000,  # puntos suspensivos
+    "•": 350, "\x95": 350,  # viñeta (según origen del carácter)
+    "“": 333, "”": 333, "‘": 222, "’": 222,  # comillas tipográficas
+    "€": 556, "·": 278, "«": 556, "»": 556, "°": 400,
+}
+
 
 def ancho_texto(texto: str, fuente: str, tam: float) -> float:
     """Ancho en puntos de un texto para la fuente y tamaño dados."""
@@ -98,8 +110,13 @@ def ancho_texto(texto: str, fuente: str, tam: float) -> float:
     tabla = ANCHOS.get(fuente, ANCHOS[F_NORMAL])
     total = 0
     for ch in texto:
-        # Los acentuados no están en la tabla ASCII: se aproximan con su letra base
-        total += tabla.get(ch, tabla.get(_letra_base(ch), 556))
+        if ch in tabla:
+            total += tabla[ch]
+        elif ch in ANCHOS_EXTRA:
+            total += ANCHOS_EXTRA[ch]
+        else:
+            # Los acentuados no están en la tabla ASCII: se aproximan con su letra base
+            total += tabla.get(_letra_base(ch), 556)
     return total * tam / 1000.0
 
 
