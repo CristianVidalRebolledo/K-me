@@ -34,6 +34,7 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `09_PRICING_CANONICO.md` | **Única tabla de precios válida** + economía unitaria y punto de equilibrio. Prevalece sobre cifras de 00/03/04b/05 |
 | `10_ANALISIS_CRITICO.md` | Auditoría interna (jul 2026): fortalezas, incógnitas existenciales, discrepancias corregidas, camino a EBITDA. **Leer antes de cualquier pitch** |
 | `11_PLAN_VALIDACION.md` | Plan 30-60-90 días con criterios de éxito: facturas reales, base del recargo, canal, SAM en pesos |
+| `12_SECTORES_PRODUCTIVOS.md` | Sectores objetivo (aserraderos, packing/frío, viñas) y qué ofrecer; nota técnica: aserrín es para eficiencia/pellet, NO biogás |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
 | `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia externa). **No leerlos** — ver abajo. |
