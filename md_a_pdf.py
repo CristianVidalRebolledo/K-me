@@ -292,12 +292,23 @@ def parsear_markdown(md: str) -> list:
         if m:
             sangria_md, marca, contenido = m.groups()
             nivel = len(sangria_md) // 2
+            i += 1
+            # Juntar líneas de continuación del mismo ítem (texto envuelto en el
+            # fuente): así un span **negrita** partido en dos líneas no se rompe.
+            while i < len(lineas):
+                cont = lineas[i]
+                pelada = cont.strip()
+                if (not pelada or pelada.startswith(("#", ">", "|", "```"))
+                        or re.match(r"^(\s*)([-*+]|\d+[.)])\s+", cont)
+                        or re.fullmatch(r"(-{3,}|\*{3,}|_{3,})", pelada)):
+                    break
+                contenido += " " + pelada
+                i += 1
             vineta = "\x95" if marca in "-*+" else marca  # \x95 = bullet en cp1252
             frags = [Fragmento(f"{vineta}  ", F_NORMAL, TAM_CUERPO)]
             frags += parsear_inline(contenido, F_NORMAL, TAM_CUERPO)
             bloques.append(Bloque("parrafo", [frags],
                                   sangria=12 + nivel * 14, espacio_despues=1.5))
-            i += 1
             continue
 
         # --- Párrafo normal (junta líneas hasta un corte) ---

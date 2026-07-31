@@ -35,6 +35,7 @@ Numerada por "zonas" temáticas; leer en orden da la tesis completa del negocio:
 | `10_ANALISIS_CRITICO.md` | Auditoría interna (jul 2026): fortalezas, incógnitas existenciales, discrepancias corregidas, camino a EBITDA. **Leer antes de cualquier pitch** |
 | `11_PLAN_VALIDACION.md` | Plan 30-60-90 días con criterios de éxito: facturas reales, base del recargo, canal, SAM en pesos |
 | `12_SECTORES_PRODUCTIVOS.md` | Sectores objetivo (aserraderos, packing/frío, viñas) y qué ofrecer; nota técnica: aserrín es para eficiencia/pellet, NO biogás |
+| `candidatos/` | Dossiers de proyecto por sector candidato (md + pdf). Cada uno: por qué, proceso, oferta, telemetría, economía, lista de candidatos. Ver `candidatos/README.md` |
 | `FUENTES_Y_DESPERDICIO.md` | **Fuente clave**: cuantificación del desperdicio + todas las fuentes citadas (CNE, distribuidoras, estudios) |
 | `README.md` | Guía rápida y resumen de los 6 casos analizados |
 | `fuentes_pdf/` | PDFs oficiales de respaldo (evidencia externa). **No leerlos** — ver abajo. |
