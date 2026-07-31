@@ -5,11 +5,51 @@ Mapear fuentes públicas de financiamiento para Pymes.
 
 ---
 
-## 0. Programa ancla verificado: "Ponle Energía a tu Pyme" (Ministerio de Energía + AgenciaSE)
+## 0. Programa ancla: "Ponle Energía a tu Pyme" (Ministerio de Energía + AgenciaSE)
 
 > **FUENTE OFICIAL VERIFICADA (julio 2026).** Este es el programa de cofinanciamiento
 > público concreto al que apuntamos para las PYMES. Reemplaza la referencia genérica
 > a "FFEE" como programa principal para el segmento MiPyME.
+
+### ⚠️ ESTADO DE LA CONVOCATORIA (verificado 31-jul-2026): SIN LLAMADO VIGENTE
+
+Revisión de la ficha oficial y de los boletines "convocatorias abiertas" de AgenciaSE
+(ene-2026, mar-2026, may-2026 y ago-2025):
+
+- La **última convocatoria fue la de 2022**, con plazo extendido hasta el
+  **13 de enero de 2023**. Desde entonces solo hay **procesos de regularización** de
+  postulaciones anteriores (últimas notificaciones: ene/feb 2025).
+- **Ningún boletín 2025–2026 revisado lista una convocatoria abierta** de "Ponle
+  Energía a tu Pyme" ni de su hermano "Ponle Energía a tu Empresa" (cuya última
+  edición conocida, 2023, financió 43 proyectos).
+- Esto **confirma el riesgo** señalado en `10_ANALISIS_CRITICO.md` §4.4 (presupuesto
+  −85% entre 2021 y 2022, continuidad no garantizada).
+
+**Implicación comercial (regla de negocio)**: el pitch y la economía unitaria **no
+pueden depender de este subsidio**. La secuencia diagnóstico → condensadores → SaaS
+debe cerrar con la economía propia del cliente (`09_PRICING_CANONICO.md` ya valora la
+comisión de gestión "solo si hay convocatoria"). Si se reabre un llamado, el subsidio
+es un **acelerador**, no la base de la venta. Monitorear:
+https://www.agenciase.org/category/convocatorias/ y energiapyme@agenciase.org.
+
+### Cómo opera (según ficha oficial — clave para nuestro rol)
+
+- **Postula la MiPyME directamente**, no el proveedor. La ficha incluye un **"Formato
+  de contrato con implementador"**: la pyme contrata al proveedor que ejecuta.
+- **La ficha no exige un registro/acreditación formal del proveedor** para implementar
+  (el Registro Energético de AgenciaSE es voluntario, aporta credibilidad). ⚠️ Las
+  bases de cada llamado pueden fijar requisitos específicos — verificar al abrirse
+  una nueva convocatoria.
+- Nuestro rol verificable: asesor + implementador contratado por la pyme + gestor de
+  la postulación (comisión 3–5% según `09_PRICING_CANONICO.md`).
+
+### Instrumentos AgenciaSE relacionados vistos activos en 2025–2026
+
+| Instrumento | Estado visto | Relevancia para nosotros |
+|---|---|---|
+| **Concurso de Auditorías Energéticas en Medianas Empresas** | Abierto en 2025 (cierre 31-oct-2025) | Directamente alineado con nuestra línea de diagnóstico; vigilar reapertura 2026 |
+| **Exámenes de Acreditación de Auditores/as Energéticos/as** (Comprobación y Verificación) | Ciclos periódicos (sep-2025) | Vía formal de acreditación como auditor — refuerza credibilidad ISO 50002 y habilita instrumentos que exigen auditor acreditado |
+| Mi Taxi Eléctrico 3.0, Sello Leña, Sello Comuna Energética, consultores acondicionamiento térmico | Abiertos 2026 | Fuera de nuestro foco |
 
 **Nombre oficial**: *Ponle Energía a tu Pyme* (Programa de Eficiencia Energética y
 Energías Renovables para MiPyMEs).
@@ -36,8 +76,9 @@ Bonificadores acumulables: zonas extremas, comunas con Estrategia de Transición
 combinación de múltiples medidas, participación de mujeres o pueblos originarios.
 
 **Presupuesto por convocatoria** (referencia): 2021 = $3.781.121.902 CLP;
-2022 = $588.804.526 CLP. Es un fondo concursable con convocatorias anuales — verificar
-las bases y fechas vigentes en cada llamado.
+2022 = $588.804.526 CLP (−85%). Fondo concursable **sin convocatoria nueva desde 2022**
+(ver estado arriba) — los montos y % de esta tabla corresponden a los últimos llamados
+y sirven solo como referencia de diseño del instrumento.
 
 **Nota sobre el modelo ESCO**: este fondo cofinancia *proyectos*, no exige que el
 proveedor sea ESCO. El vínculo ESCO se da por separado en el **Registro Energético**
@@ -49,6 +90,10 @@ con nuestro objetivo de cumplimiento normativo.
 - Ficha del programa (AgenciaSE): https://www.agenciase.org/energia-a-tu-pyme/
 - Plataforma de Financiamiento (Ministerio de Energía): https://energia.gob.cl/pfinanciamiento
 - Nota Ministerio de Energía: https://energia.gob.cl/noticias/atacama/ponle-energia-tu-pyme-busca-financiar-proyectos-de-eficiencia-energetica-y-energias-renovables
+- Extensión de plazo última convocatoria (30-dic-2022): https://www.agenciase.org (categoría Ponle Energía a tu Pyme)
+- Boletines de convocatorias abiertas revisados: 19-ene-2026, 18-may-2026 y 4-ago-2025
+  (https://www.agenciase.org/2026/01/19/..., /2026/05/18/..., /2025/08/04/...)
+- "Ponle Energía a tu Empresa" 2023 (43 proyectos financiados): nota vía EEAS/UE
 
 ---
 
@@ -109,6 +154,9 @@ con nuestro objetivo de cumplimiento normativo.
 
 ---
 
-**Estado**: ✅ Programa ancla identificado y verificado ("Ponle Energía a tu Pyme",
-Ministerio de Energía + AgenciaSE) y modelo ESCO vía Registro Energético. Pendiente:
-confirmar bases y fechas de la convocatoria vigente y montos exactos de FFEE/CORFO.
+**Estado**: ✅ Programa ancla identificado y su vigencia verificada (31-jul-2026):
+**sin convocatoria abierta desde 2022** — el subsidio se trata como acelerador, no como
+base de la venta. Confirmado: postula la pyme (contrato con implementador); la ficha no
+exige acreditación del proveedor. Pendiente: monitorear reapertura de llamados
+(Ponle Energía Pyme/Empresa y Concurso de Auditorías en Medianas Empresas) y revisar
+las bases específicas cuando exista un llamado vigente.

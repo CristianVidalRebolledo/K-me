@@ -80,8 +80,11 @@
 ### 3.3 Escenarios de estrés (subsidio y regulación)
 - **Qué**: proyección a 24 meses en 3 escenarios: (a) Ponle Energía con presupuesto
   nivel 2022 (−85%), (b) sin subsidio, (c) CNE cambia la regla del 0.93 (cobro por kVArh).
-- **Criterio de éxito**: el negocio cierra al menos en (a) y (b) con la secuencia
-  diagnóstico → instalación → SaaS. Si solo cierra en el escenario optimista, replantear.
+- ⚠️ **Actualización 31-jul-2026**: el escenario (b) **es el escenario actual** — el
+  programa no tiene convocatoria abierta desde 2022 (ver `03` §0). El plan comercial
+  base debe cerrar sin subsidio; (a) pasa a ser el escenario optimista.
+- **Criterio de éxito**: el negocio cierra en (b) con la secuencia
+  diagnóstico → instalación → SaaS. Si solo cierra con subsidio, replantear.
 
 ### 3.4 Decisión Go/No-Go de producto (reemplaza el de la semana 16 del roadmap)
 - **GO** si: base del recargo confirmada, ≥3 diagnósticos vendidos, ≥1 proyecto de
